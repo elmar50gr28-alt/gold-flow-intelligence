@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict');
+const A=require('../docs/analytics.js');
+assert.equal(A.change([{date:'a',value:100},{date:'b',value:110}],1).value,10);
+assert.ok(Math.abs(A.change([{date:'a',value:100},{date:'b',value:110}],1).percent-10)<1e-10);
+assert.equal(A.change([{date:'a',value:0},{date:'b',value:1}],1),null);
+assert.equal(A.change([{date:'a',value:100}],1),null);
+const rows=[{date:'a',managed:{long:100,short:40,net:60}},{date:'b',managed:{long:110,short:35,net:75}}];
+const p=A.positioning(rows,1);assert.equal(p.longChange,10);assert.equal(p.shortChange,-5);assert.equal(p.netChange,15);assert.equal(p.index,100);assert.equal(p.longChange-p.shortChange,p.netChange);
+assert.equal(A.positioning([rows[0],rows[0]],1).index,50);
+const monthly=Array.from({length:13},(_,i)=>({date:`${2025+Math.floor(i/12)}-${String(i%12+1).padStart(2,'0')}-01`,value:100+i}));
+assert.equal(A.annual(monthly).value,12);assert.equal(A.annual(monthly).months.length,12);
+assert.equal(A.annual(monthly.slice(1)),null);const gap=structuredClone(monthly);gap[5].date='2025-07-01';assert.equal(A.annual(gap),null);
+console.log('Analytics: returns, zero/missing history, long/short decomposition, range index and 12-month continuity passed.');

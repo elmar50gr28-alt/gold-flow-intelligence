@@ -25,11 +25,17 @@ jobs:
           python-version: '3.13'
       - name: Fetch and validate official CFTC data
         run: python scripts/update_data.py
+      - name: Update prices ETF macro and central-bank history
+        run: python scripts/update_market.py
+      - name: Verify analytics and public datasets
+        run: |
+          node scripts/test_analytics.cjs
+          python scripts/test_market.py
       - name: Save validated data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/data/cftc.json
+          git add docs/data/cftc.json docs/data/market.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update official CFTC gold positions'
             git push
