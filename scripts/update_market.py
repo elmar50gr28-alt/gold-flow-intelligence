@@ -1,5 +1,6 @@
 """Independent public data updates. Failed sources keep dated last-good values."""
 import concurrent.futures, csv, datetime as dt, html as html_lib, io, json, math, pathlib, re, threading, urllib.request, xml.etree.ElementTree as ET, zipfile
+from html.parser import HTMLParser
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 TARGET=ROOT/'docs/data/market.json'
 UTC=dt.timezone.utc
@@ -64,24 +65,45 @@ def etf(product):
 FRED_LOCK=threading.Lock()
 FRED_ROWS=None
 FRED_ERROR=None
+class TableRows(HTMLParser):
+    def __init__(self):super().__init__();self.rows=[];self.row=[];self.cell=None
+    def handle_starttag(self,tag,attrs):
+        if tag=='tr':self.row=[]
+        if tag in ('td','th'):self.cell=[]
+    def handle_data(self,text):
+        if self.cell is not None:self.cell.append(text)
+    def handle_endtag(self,tag):
+        if tag in ('td','th') and self.cell is not None:self.row.append(''.join(self.cell).strip());self.cell=None
+        if tag=='tr' and self.row:self.rows.append(self.row)
+def fred_table(series):
+    parser=TableRows();parser.feed(get('https://fred.stlouisfed.org/data/'+series,timeout=20).decode('utf-8'))
+    points=[]
+    for row in parser.rows:
+        if len(row)==2 and re.fullmatch(r'\d{4}-\d{2}-\d{2}',row[0]) and re.fullmatch(r'[+-]?\d+(?:\.\d+)?',row[1]):
+            points.append({'date':row[0],'value':float(row[1])})
+    return normalize(points)[-300:]
 def fred(series):
     global FRED_ROWS,FRED_ERROR
     source='https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10,DEXJPUS,DTWEXBGS&cosd='+str(dt.datetime.now(UTC).date()-dt.timedelta(days=420))
-    with FRED_LOCK:
-        if FRED_ERROR is not None:raise RuntimeError('Shared FRED request failed') from FRED_ERROR
-        if FRED_ROWS is None:
-            try:FRED_ROWS=list(csv.reader(io.StringIO(get(source,timeout=45).decode('utf-8-sig'))))
-            except Exception as exc:
-                FRED_ERROR=exc
-                raise
-        raw=FRED_ROWS
-    header=raw[0]
-    assert header[0] in ('observation_date','DATE') and series in header
-    index=header.index(series)
-    points=[]
-    for row in raw[1:]:
-        date,value=row[0],row[index]
-        if value not in ('','.'):points.append({'date':date,'value':float(value)})
+    try:
+        with FRED_LOCK:
+            if FRED_ERROR is not None:raise RuntimeError('Shared FRED request failed') from FRED_ERROR
+            if FRED_ROWS is None:
+                try:FRED_ROWS=list(csv.reader(io.StringIO(get(source,timeout=30).decode('utf-8-sig'))))
+                except Exception as exc:
+                    FRED_ERROR=exc
+                    raise
+            raw=FRED_ROWS
+        header=raw[0]
+        assert header[0] in ('observation_date','DATE') and series in header
+        index=header.index(series)
+        points=[]
+        for row in raw[1:]:
+            date,value=row[0],row[index]
+            if value not in ('','.'):points.append({'date':date,'value':float(value)})
+    except Exception:
+        points=fred_table(series)
+        source='https://fred.stlouisfed.org/data/'+series
     names={'DFII10':('米10年実質金利','%'),'DEXJPUS':('ドル円（FRB日次）','JPY / USD'),'DTWEXBGS':('FRB広範ドル指数','2006年1月=100')}
     name,unit=names[series]
     return {'name':name,'unit':unit,'source':source,'sourcePage':'https://fred.stlouisfed.org/series/'+series,'points':normalize(points),'note':'FRB公表値をFREDから取得。休日は欠測。金利変化は％ポイント、指数はDXYとは異なる系列。'}

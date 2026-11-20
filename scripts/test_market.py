@@ -22,6 +22,9 @@ class MarketTests(unittest.TestCase):
   self.assertEqual(updater.gold_ounces('<td>7419万盎司</td><td>7422万盎司</td>'),[7419,7422])
   self.assertEqual(updater.gold_ounces('<td>3064.11</td><td>7419万盎司</td><td>7422万盎司</td>'),[7419,7422])
   with self.assertRaises(AssertionError):updater.gold_ounces('<html>No data</html>')
+ def test_fred_table_rows(self):
+  parser=updater.TableRows();parser.feed('<table><tr><td>2026-11-18</td><td><span>2.88</span></td></tr><tr><td>2026-11-11</td><td>.</td></tr></table>')
+  self.assertEqual(parser.rows,[['2026-11-18','2.88'],['2026-11-11','.']])
  def test_gold_units(self):
   for key in ('gld','gldm'):
    points=self.data[key]['points'];self.assertGreaterEqual(len(points),22)
