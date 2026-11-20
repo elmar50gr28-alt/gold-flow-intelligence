@@ -75,13 +75,19 @@ class TableRows(HTMLParser):
     def handle_endtag(self,tag):
         if tag in ('td','th') and self.cell is not None:self.row.append(''.join(self.cell).strip());self.cell=None
         if tag=='tr' and self.row:self.rows.append(self.row)
-def fred_table(series):
-    parser=TableRows();parser.feed(get('https://fred.stlouisfed.org/data/'+series,timeout=20).decode('utf-8'))
-    points=[]
+def parse_fred_table(html):
+    parser=TableRows();parser.feed(html)
+    points={}
     for row in parser.rows:
         if len(row)==2 and re.fullmatch(r'\d{4}-\d{2}-\d{2}',row[0]) and re.fullmatch(r'[+-]?\d+(?:\.\d+)?',row[1]):
-            points.append({'date':row[0],'value':float(row[1])})
-    return normalize(points)[-300:]
+            points[row[0]]=float(row[1])
+    # FRED renders the first observations as rows and appends recent rows
+    # from a documented-in-page compact text block, not from another API.
+    for date,value in re.findall(r'#(\d{4}-\d{2}-\d{2})\|\s*([+-]?\d+(?:\.\d+)?)',html):
+        points[date]=float(value)
+    return normalize([{'date':d,'value':v} for d,v in points.items()])[-300:]
+def fred_table(series):
+    return parse_fred_table(get('https://fred.stlouisfed.org/data/'+series,timeout=20).decode('utf-8'))
 def fred(series):
     global FRED_ROWS,FRED_ERROR
     source='https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10,DEXJPUS,DTWEXBGS&cosd='+str(dt.datetime.now(UTC).date()-dt.timedelta(days=420))

@@ -25,6 +25,9 @@ class MarketTests(unittest.TestCase):
  def test_fred_table_rows(self):
   parser=updater.TableRows();parser.feed('<table><tr><td>2026-11-18</td><td><span>2.88</span></td></tr><tr><td>2026-11-11</td><td>.</td></tr></table>')
   self.assertEqual(parser.rows,[['2026-11-18','2.88'],['2026-11-11','.']])
+  points=updater.parse_fred_table('<table><tr><td>2003-01-02</td><td>2.43</td></tr></table><div id="extra-rows">#2026-11-17| 2.89 #2026-11-18| 2.88 #2026-11-11| .</div>')
+  self.assertEqual(points[-1],{'date':'2026-11-18','value':2.88})
+  self.assertEqual(len(points),3)
  def test_gold_units(self):
   for key in ('gld','gldm'):
    points=self.data[key]['points'];self.assertGreaterEqual(len(points),22)
