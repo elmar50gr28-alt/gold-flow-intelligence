@@ -88,8 +88,11 @@ def fred(series):
 def gold_ounces(html):
     text=html_lib.unescape(re.sub(r'<[^>]+>',' ',html))
     values=[int(v) for v in re.findall(r'(\d+)\s*万\s*盎\s*司',text)]
-    # SAFE has published both one-cell and duplicated USD/SDR-cell layouts.
-    if len(values)%2==0 and values and all(values[i]==values[i+1] for i in range(0,len(values),2)):
+    # Responsive SAFE pages may repeat the entire annual table.
+    if len(values)>12 and len(values)%2==0 and values[:len(values)//2]==values[len(values)//2:]:
+        values=values[:len(values)//2]
+    # Or repeat each month's quantity in separate USD/SDR cells.
+    if len(values)>12 and len(values)%2==0 and all(values[i]==values[i+1] for i in range(0,len(values),2)):
         values=values[::2]
     assert 1<=len(values)<=12,f'Unexpected gold month count {len(values)}'
     return values

@@ -15,7 +15,10 @@ class MarketTests(unittest.TestCase):
    self.assertIn(s['status'],('ok','update-failed','verified-snapshot'))
    for p in points:self.assertLessEqual(dt.date.fromisoformat(p['date']),dt.datetime.now(dt.timezone.utc).date())
  def test_safe_layout(self):
-  self.assertEqual(updater.gold_ounces('<td>7419万盎<span>司</span></td><td>7419万盎\n司</td><td>7422万盎司</td><td>7422万盎司</td>'),[7419,7422])
+  self.assertEqual(updater.gold_ounces('<td>7419万盎<span>司</span></td><td>7422万盎\n司</td>'),[7419,7422])
+  year=[7400+i for i in range(12)]
+  self.assertEqual(updater.gold_ounces(''.join(f'<td>{v}万盎司</td>' for v in year+year)),year)
+  self.assertEqual(updater.gold_ounces(''.join(f'<td>{v}万盎司</td><td>{v}万盎司</td>' for v in year)),year)
   self.assertEqual(updater.gold_ounces('<td>7419万盎司</td><td>7422万盎司</td>'),[7419,7422])
   self.assertEqual(updater.gold_ounces('<td>3064.11</td><td>7419万盎司</td><td>7422万盎司</td>'),[7419,7422])
   with self.assertRaises(AssertionError):updater.gold_ounces('<html>No data</html>')
