@@ -1,11 +1,11 @@
 """Independent public data updates. Failed sources keep dated last-good values."""
-import concurrent.futures, csv, datetime as dt, io, json, math, pathlib, re, urllib.request, xml.etree.ElementTree as ET, zipfile
+import concurrent.futures, csv, datetime as dt, html as html_lib, io, json, math, pathlib, re, threading, urllib.request, xml.etree.ElementTree as ET, zipfile
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 TARGET=ROOT/'docs/data/market.json'
 UTC=dt.timezone.utc
-def get(url):
+def get(url,timeout=22):
     request=urllib.request.Request(url,headers={'User-Agent':'GoldFlowIntelligence/1.4 (public statistics)'})
-    with urllib.request.urlopen(request,timeout=22) as r: return r.read()
+    with urllib.request.urlopen(request,timeout=timeout) as r: return r.read()
 def normalize(points, minimum=2):
     assert len(points)>=minimum,'Insufficient observations'
     points.sort(key=lambda p:p['date'])
@@ -61,25 +61,46 @@ def etf(product):
     points=normalize(points,25)
     # Retain only recent factual holdings, not the issuer's archive or price history.
     return {'name':'SPDR Gold Trust (GLD)' if product=='gld' else 'SPDR Gold MiniShares (GLDM)','unit':'t','source':source,'sourcePage':'https://www.spdrgoldshares.com/usa/'+product+'/','points':points[-35:],'note':'信託が保有する金の数量。発行会社自身の投資判断や、ETF投資家の実名を示すものではありません。'}
+FRED_LOCK=threading.Lock()
+FRED_ROWS=None
+FRED_ERROR=None
 def fred(series):
-    source='https://fred.stlouisfed.org/graph/fredgraph.csv?id='+series+'&cosd='+str(dt.datetime.now(UTC).date()-dt.timedelta(days=420))
-    rows=csv.reader(io.StringIO(get(source).decode('utf-8-sig'))); header=next(rows)
-    assert header[0] in ('observation_date','DATE') and header[1]==series
+    global FRED_ROWS,FRED_ERROR
+    source='https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10,DEXJPUS,DTWEXBGS&cosd='+str(dt.datetime.now(UTC).date()-dt.timedelta(days=420))
+    with FRED_LOCK:
+        if FRED_ERROR is not None:raise RuntimeError('Shared FRED request failed') from FRED_ERROR
+        if FRED_ROWS is None:
+            try:FRED_ROWS=list(csv.reader(io.StringIO(get(source,timeout=45).decode('utf-8-sig'))))
+            except Exception as exc:
+                FRED_ERROR=exc
+                raise
+        raw=FRED_ROWS
+    header=raw[0]
+    assert header[0] in ('observation_date','DATE') and series in header
+    index=header.index(series)
     points=[]
-    for date,value,*_ in rows:
+    for row in raw[1:]:
+        date,value=row[0],row[index]
         if value not in ('','.'):points.append({'date':date,'value':float(value)})
     names={'DFII10':('米10年実質金利','%'),'DEXJPUS':('ドル円（FRB日次）','JPY / USD'),'DTWEXBGS':('FRB広範ドル指数','2006年1月=100')}
     name,unit=names[series]
     return {'name':name,'unit':unit,'source':source,'sourcePage':'https://fred.stlouisfed.org/series/'+series,'points':normalize(points),'note':'FRB公表値をFREDから取得。休日は欠測。金利変化は％ポイント、指数はDXYとは異なる系列。'}
+def gold_ounces(html):
+    text=html_lib.unescape(re.sub(r'<[^>]+>','',html))
+    text=re.sub(r'\s+','',text)
+    values=[int(v) for v in re.findall(r'(\d+)万盎司',text)]
+    # SAFE has published both one-cell and duplicated USD/SDR-cell layouts.
+    if len(values)%2==0 and values and all(values[i]==values[i+1] for i in range(0,len(values),2)):
+        values=values[::2]
+    assert 1<=len(values)<=12,f'Unexpected gold month count {len(values)}'
+    return values
 def china():
     points=[];sources=[]
     for year in (2025,2026):
         source=f'https://www.safe.gov.cn/safe/{year}/0206/2711{5 if year==2025 else 6}.html'
         html=get(source).decode('utf-8')
-        values=[int(v) for v in re.findall(r'(\d+)\s*万盎司',html)]
-        assert 2<=len(values)<=24 and len(values)%2==0
-        assert all(values[i]==values[i+1] for i in range(0,len(values),2))
-        for month,value in enumerate(values[::2],1):
+        values=gold_ounces(html)
+        for month,value in enumerate(values,1):
             points.append({'date':f'{year}-{month:02d}-01','value':value*0.311034768,'tenThousandOz':value})
         sources.append(source)
     return {'name':'中国人民銀行・金準備','unit':'t','source':sources[-1],'sourcePage':sources[-1],'sources':sources,'points':normalize(points,13)[-13:],'note':'SAFEの月末数量（万トロイオンス）をトン換算。日付は対象月を示します。保有変化であり取引約定ではありません。'}
@@ -96,7 +117,7 @@ def run():
         except Exception as exc:
             old=output['series'].get(key,{'name':key,'points':[]})
             old.update(status='update-failed',lastAttempt=now,error=type(exc).__name__)
-            print(f'::warning::Source {key} failed ({type(exc).__name__}); retaining dated previous observations.')
+            print(f'::warning::Source {key} failed ({type(exc).__name__}: {exc}); retaining dated previous observations.')
             return key,old
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         for key,result in pool.map(update,jobs.items()):output['series'][key]=result

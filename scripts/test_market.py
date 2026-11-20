@@ -1,5 +1,7 @@
 import datetime as dt,importlib.util,json,pathlib,unittest
 ROOT=pathlib.Path(__file__).resolve().parents[1]
+spec=importlib.util.spec_from_file_location('market_updater',ROOT/'scripts/update_market.py')
+updater=importlib.util.module_from_spec(spec);spec.loader.exec_module(updater)
 class MarketTests(unittest.TestCase):
  def setUp(self):
   self.data=json.loads((ROOT/'docs/data/market.json').read_text(encoding='utf-8'))['series']
@@ -12,6 +14,10 @@ class MarketTests(unittest.TestCase):
    self.assertTrue(s['sourcePage'].startswith('https://'))
    self.assertIn(s['status'],('ok','update-failed','verified-snapshot'))
    for p in points:self.assertLessEqual(dt.date.fromisoformat(p['date']),dt.datetime.now(dt.timezone.utc).date())
+ def test_safe_layout(self):
+  self.assertEqual(updater.gold_ounces('<td>7419万盎<span>司</span></td><td>7419万盎\n司</td><td>7422万盎司</td><td>7422万盎司</td>'),[7419,7422])
+  self.assertEqual(updater.gold_ounces('<td>7419万盎司</td><td>7422万盎司</td>'),[7419,7422])
+  with self.assertRaises(AssertionError):updater.gold_ounces('<html>No data</html>')
  def test_gold_units(self):
   for key in ('gld','gldm'):
    points=self.data[key]['points'];self.assertGreaterEqual(len(points),22)
