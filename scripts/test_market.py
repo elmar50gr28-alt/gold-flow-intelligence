@@ -17,6 +17,7 @@ class MarketTests(unittest.TestCase):
  def test_safe_layout(self):
   self.assertEqual(updater.gold_ounces('<td>7419万盎<span>司</span></td><td>7419万盎\n司</td><td>7422万盎司</td><td>7422万盎司</td>'),[7419,7422])
   self.assertEqual(updater.gold_ounces('<td>7419万盎司</td><td>7422万盎司</td>'),[7419,7422])
+  self.assertEqual(updater.gold_ounces('<td>3064.11</td><td>7419万盎司</td><td>7422万盎司</td>'),[7419,7422])
   with self.assertRaises(AssertionError):updater.gold_ounces('<html>No data</html>')
  def test_gold_units(self):
   for key in ('gld','gldm'):

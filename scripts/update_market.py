@@ -86,9 +86,8 @@ def fred(series):
     name,unit=names[series]
     return {'name':name,'unit':unit,'source':source,'sourcePage':'https://fred.stlouisfed.org/series/'+series,'points':normalize(points),'note':'FRB公表値をFREDから取得。休日は欠測。金利変化は％ポイント、指数はDXYとは異なる系列。'}
 def gold_ounces(html):
-    text=html_lib.unescape(re.sub(r'<[^>]+>','',html))
-    text=re.sub(r'\s+','',text)
-    values=[int(v) for v in re.findall(r'(\d+)万盎司',text)]
+    text=html_lib.unescape(re.sub(r'<[^>]+>',' ',html))
+    values=[int(v) for v in re.findall(r'(\d+)\s*万\s*盎\s*司',text)]
     # SAFE has published both one-cell and duplicated USD/SDR-cell layouts.
     if len(values)%2==0 and values and all(values[i]==values[i+1] for i in range(0,len(values),2)):
         values=values[::2]
