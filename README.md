@@ -17,3 +17,6 @@ python scripts/update_data.py
 python -m http.server 8080 --directory docs
 ```
 PWAはHTTPSまたはlocalhostで動作。ホーム画面への追加、オフラインキャッシュ、期間切替、CSV/JSON保存に対応。個人認証情報・有料API・Cloudflareは不要。
+
+## 現物価格
+Gold API (https://gold-api.com/docs) の無料・キー不要エンドポイントからブラウザでUSD/ozとJPY/ozを取得。JPYは31.1034768で割って円/gを表示。国内税込店頭価格ではありません。画面表示中は60秒間隔で取得。更新時刻をJSTで表示し、10分以上古い場合や保存済み価格には明示します。接続失敗時は日時を付けた保存済み価格か取得失敗表示とし、数値を捏造しません。価格取得はCFTC更新から独立しています。
