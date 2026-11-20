@@ -1,0 +1,4534 @@
+{
+  "schemaVersion": 1,
+  "source": "https://publicreporting.cftc.gov/resource/72hh-3qpy.json",
+  "market": "GOLD - COMMODITY EXCHANGE INC.",
+  "contractCode": "088691",
+  "reportType": "Disaggregated Futures Only",
+  "fetchedAt": "2026-11-20T12:14:59.812766+00:00",
+  "records": [
+    {
+      "date": "2023-11-21",
+      "openInterest": 508429,
+      "managed": {
+        "long": 144381,
+        "short": 65246,
+        "net": 79135
+      },
+      "producer": {
+        "long": 14081,
+        "short": 59990,
+        "net": -45909
+      },
+      "swap": {
+        "long": 80946,
+        "short": 225272,
+        "net": -144326
+      },
+      "other": {
+        "long": 125320,
+        "short": 32750,
+        "net": 92570
+      },
+      "nonreportable": {
+        "long": 43959,
+        "short": 25429,
+        "net": 18530
+      }
+    },
+    {
+      "date": "2023-11-28",
+      "openInterest": 505658,
+      "managed": {
+        "long": 169695,
+        "short": 54802,
+        "net": 114893
+      },
+      "producer": {
+        "long": 14333,
+        "short": 64941,
+        "net": -50608
+      },
+      "swap": {
+        "long": 76804,
+        "short": 244788,
+        "net": -167984
+      },
+      "other": {
+        "long": 120150,
+        "short": 34959,
+        "net": 85191
+      },
+      "nonreportable": {
+        "long": 45650,
+        "short": 27142,
+        "net": 18508
+      }
+    },
+    {
+      "date": "2023-12-05",
+      "openInterest": 487469,
+      "managed": {
+        "long": 159907,
+        "short": 50520,
+        "net": 109387
+      },
+      "producer": {
+        "long": 12631,
+        "short": 62325,
+        "net": -49694
+      },
+      "swap": {
+        "long": 76376,
+        "short": 253627,
+        "net": -177251
+      },
+      "other": {
+        "long": 128933,
+        "short": 34776,
+        "net": 94157
+      },
+      "nonreportable": {
+        "long": 47483,
+        "short": 24082,
+        "net": 23401
+      }
+    },
+    {
+      "date": "2023-12-12",
+      "openInterest": 469939,
+      "managed": {
+        "long": 149634,
+        "short": 54106,
+        "net": 95528
+      },
+      "producer": {
+        "long": 13420,
+        "short": 58535,
+        "net": -45115
+      },
+      "swap": {
+        "long": 76081,
+        "short": 243774,
+        "net": -167693
+      },
+      "other": {
+        "long": 123902,
+        "short": 31197,
+        "net": 92705
+      },
+      "nonreportable": {
+        "long": 46457,
+        "short": 21882,
+        "net": 24575
+      }
+    },
+    {
+      "date": "2023-12-19",
+      "openInterest": 481203,
+      "managed": {
+        "long": 155697,
+        "short": 47421,
+        "net": 108276
+      },
+      "producer": {
+        "long": 12836,
+        "short": 60852,
+        "net": -48016
+      },
+      "swap": {
+        "long": 75017,
+        "short": 254059,
+        "net": -179042
+      },
+      "other": {
+        "long": 125275,
+        "short": 32212,
+        "net": 93063
+      },
+      "nonreportable": {
+        "long": 48019,
+        "short": 22300,
+        "net": 25719
+      }
+    },
+    {
+      "date": "2023-12-26",
+      "openInterest": 491343,
+      "managed": {
+        "long": 152801,
+        "short": 46347,
+        "net": 106454
+      },
+      "producer": {
+        "long": 13243,
+        "short": 58256,
+        "net": -45013
+      },
+      "swap": {
+        "long": 74400,
+        "short": 261732,
+        "net": -187332
+      },
+      "other": {
+        "long": 137042,
+        "short": 35778,
+        "net": 101264
+      },
+      "nonreportable": {
+        "long": 48036,
+        "short": 23409,
+        "net": 24627
+      }
+    },
+    {
+      "date": "2024-01-02",
+      "openInterest": 500364,
+      "managed": {
+        "long": 154384,
+        "short": 45235,
+        "net": 109149
+      },
+      "producer": {
+        "long": 13674,
+        "short": 55375,
+        "net": -41701
+      },
+      "swap": {
+        "long": 76117,
+        "short": 269894,
+        "net": -193777
+      },
+      "other": {
+        "long": 136322,
+        "short": 37822,
+        "net": 98500
+      },
+      "nonreportable": {
+        "long": 49200,
+        "short": 21371,
+        "net": 27829
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "openInterest": 489849,
+      "managed": {
+        "long": 134333,
+        "short": 45874,
+        "net": 88459
+      },
+      "producer": {
+        "long": 11949,
+        "short": 56950,
+        "net": -45001
+      },
+      "swap": {
+        "long": 78213,
+        "short": 250913,
+        "net": -172700
+      },
+      "other": {
+        "long": 137332,
+        "short": 37177,
+        "net": 100155
+      },
+      "nonreportable": {
+        "long": 50574,
+        "short": 21487,
+        "net": 29087
+      }
+    },
+    {
+      "date": "2024-01-16",
+      "openInterest": 489334,
+      "managed": {
+        "long": 130931,
+        "short": 47702,
+        "net": 83229
+      },
+      "producer": {
+        "long": 12864,
+        "short": 53418,
+        "net": -40554
+      },
+      "swap": {
+        "long": 75791,
+        "short": 242657,
+        "net": -166866
+      },
+      "other": {
+        "long": 131429,
+        "short": 34765,
+        "net": 96664
+      },
+      "nonreportable": {
+        "long": 49640,
+        "short": 22113,
+        "net": 27527
+      }
+    },
+    {
+      "date": "2024-01-23",
+      "openInterest": 465872,
+      "managed": {
+        "long": 111298,
+        "short": 50265,
+        "net": 61033
+      },
+      "producer": {
+        "long": 13724,
+        "short": 52673,
+        "net": -38949
+      },
+      "swap": {
+        "long": 78535,
+        "short": 231679,
+        "net": -153144
+      },
+      "other": {
+        "long": 129802,
+        "short": 21361,
+        "net": 108441
+      },
+      "nonreportable": {
+        "long": 45644,
+        "short": 23025,
+        "net": 22619
+      }
+    },
+    {
+      "date": "2024-01-30",
+      "openInterest": 430328,
+      "managed": {
+        "long": 108093,
+        "short": 52069,
+        "net": 56024
+      },
+      "producer": {
+        "long": 15272,
+        "short": 49631,
+        "net": -34359
+      },
+      "swap": {
+        "long": 77882,
+        "short": 214041,
+        "net": -136159
+      },
+      "other": {
+        "long": 111129,
+        "short": 19362,
+        "net": 91767
+      },
+      "nonreportable": {
+        "long": 45364,
+        "short": 22637,
+        "net": 22727
+      }
+    },
+    {
+      "date": "2024-02-06",
+      "openInterest": 419121,
+      "managed": {
+        "long": 114316,
+        "short": 46247,
+        "net": 68069
+      },
+      "producer": {
+        "long": 14285,
+        "short": 50903,
+        "net": -36618
+      },
+      "swap": {
+        "long": 77734,
+        "short": 221357,
+        "net": -143623
+      },
+      "other": {
+        "long": 114307,
+        "short": 20638,
+        "net": 93669
+      },
+      "nonreportable": {
+        "long": 41863,
+        "short": 23360,
+        "net": 18503
+      }
+    },
+    {
+      "date": "2024-02-13",
+      "openInterest": 420812,
+      "managed": {
+        "long": 100642,
+        "short": 66466,
+        "net": 34176
+      },
+      "producer": {
+        "long": 15888,
+        "short": 48131,
+        "net": -32243
+      },
+      "swap": {
+        "long": 78854,
+        "short": 199591,
+        "net": -120737
+      },
+      "other": {
+        "long": 116863,
+        "short": 19871,
+        "net": 96992
+      },
+      "nonreportable": {
+        "long": 44228,
+        "short": 22416,
+        "net": 21812
+      }
+    },
+    {
+      "date": "2024-02-20",
+      "openInterest": 407063,
+      "managed": {
+        "long": 98840,
+        "short": 48917,
+        "net": 49923
+      },
+      "producer": {
+        "long": 10614,
+        "short": 49065,
+        "net": -38451
+      },
+      "swap": {
+        "long": 77980,
+        "short": 198940,
+        "net": -120960
+      },
+      "other": {
+        "long": 112194,
+        "short": 21855,
+        "net": 90339
+      },
+      "nonreportable": {
+        "long": 41846,
+        "short": 22697,
+        "net": 19149
+      }
+    },
+    {
+      "date": "2024-02-27",
+      "openInterest": 411195,
+      "managed": {
+        "long": 103885,
+        "short": 47732,
+        "net": 56153
+      },
+      "producer": {
+        "long": 11378,
+        "short": 51050,
+        "net": -39672
+      },
+      "swap": {
+        "long": 78743,
+        "short": 197423,
+        "net": -118680
+      },
+      "other": {
+        "long": 111063,
+        "short": 25580,
+        "net": 85483
+      },
+      "nonreportable": {
+        "long": 38943,
+        "short": 22227,
+        "net": 16716
+      }
+    },
+    {
+      "date": "2024-03-05",
+      "openInterest": 471616,
+      "managed": {
+        "long": 145106,
+        "short": 35343,
+        "net": 109763
+      },
+      "producer": {
+        "long": 11650,
+        "short": 60537,
+        "net": -48887
+      },
+      "swap": {
+        "long": 77009,
+        "short": 234914,
+        "net": -157905
+      },
+      "other": {
+        "long": 119042,
+        "short": 37512,
+        "net": 81530
+      },
+      "nonreportable": {
+        "long": 44782,
+        "short": 29283,
+        "net": 15499
+      }
+    },
+    {
+      "date": "2024-03-12",
+      "openInterest": 516057,
+      "managed": {
+        "long": 173994,
+        "short": 32911,
+        "net": 141083
+      },
+      "producer": {
+        "long": 30471,
+        "short": 78911,
+        "net": -48440
+      },
+      "swap": {
+        "long": 75076,
+        "short": 244909,
+        "net": -169833
+      },
+      "other": {
+        "long": 109068,
+        "short": 48549,
+        "net": 60519
+      },
+      "nonreportable": {
+        "long": 47992,
+        "short": 31321,
+        "net": 16671
+      }
+    },
+    {
+      "date": "2024-03-19",
+      "openInterest": 535047,
+      "managed": {
+        "long": 172588,
+        "short": 29692,
+        "net": 142896
+      },
+      "producer": {
+        "long": 32136,
+        "short": 81346,
+        "net": -49210
+      },
+      "swap": {
+        "long": 77067,
+        "short": 245387,
+        "net": -168320
+      },
+      "other": {
+        "long": 106144,
+        "short": 47438,
+        "net": 58706
+      },
+      "nonreportable": {
+        "long": 49131,
+        "short": 33203,
+        "net": 15928
+      }
+    },
+    {
+      "date": "2024-03-26",
+      "openInterest": 503642,
+      "managed": {
+        "long": 163006,
+        "short": 27211,
+        "net": 135795
+      },
+      "producer": {
+        "long": 32765,
+        "short": 80270,
+        "net": -47505
+      },
+      "swap": {
+        "long": 80421,
+        "short": 251256,
+        "net": -170835
+      },
+      "other": {
+        "long": 102641,
+        "short": 39142,
+        "net": 63499
+      },
+      "nonreportable": {
+        "long": 48004,
+        "short": 28958,
+        "net": 19046
+      }
+    },
+    {
+      "date": "2024-04-02",
+      "openInterest": 500045,
+      "managed": {
+        "long": 173073,
+        "short": 25993,
+        "net": 147080
+      },
+      "producer": {
+        "long": 32235,
+        "short": 77122,
+        "net": -44887
+      },
+      "swap": {
+        "long": 80217,
+        "short": 261044,
+        "net": -180827
+      },
+      "other": {
+        "long": 108326,
+        "short": 48156,
+        "net": 60170
+      },
+      "nonreportable": {
+        "long": 48931,
+        "short": 30467,
+        "net": 18464
+      }
+    },
+    {
+      "date": "2024-04-09",
+      "openInterest": 505214,
+      "managed": {
+        "long": 174617,
+        "short": 32885,
+        "net": 141732
+      },
+      "producer": {
+        "long": 34191,
+        "short": 76217,
+        "net": -42026
+      },
+      "swap": {
+        "long": 79228,
+        "short": 261784,
+        "net": -182556
+      },
+      "other": {
+        "long": 105182,
+        "short": 44495,
+        "net": 60687
+      },
+      "nonreportable": {
+        "long": 51559,
+        "short": 29396,
+        "net": 22163
+      }
+    },
+    {
+      "date": "2024-04-16",
+      "openInterest": 517193,
+      "managed": {
+        "long": 169910,
+        "short": 35174,
+        "net": 134736
+      },
+      "producer": {
+        "long": 37797,
+        "short": 71700,
+        "net": -33903
+      },
+      "swap": {
+        "long": 78012,
+        "short": 266867,
+        "net": -188855
+      },
+      "other": {
+        "long": 108867,
+        "short": 41680,
+        "net": 67187
+      },
+      "nonreportable": {
+        "long": 50245,
+        "short": 29410,
+        "net": 20835
+      }
+    },
+    {
+      "date": "2024-04-23",
+      "openInterest": 516249,
+      "managed": {
+        "long": 176400,
+        "short": 34261,
+        "net": 142139
+      },
+      "producer": {
+        "long": 37917,
+        "short": 70510,
+        "net": -32593
+      },
+      "swap": {
+        "long": 75873,
+        "short": 270152,
+        "net": -194279
+      },
+      "other": {
+        "long": 103135,
+        "short": 42383,
+        "net": 60752
+      },
+      "nonreportable": {
+        "long": 48914,
+        "short": 24933,
+        "net": 23981
+      }
+    },
+    {
+      "date": "2024-04-30",
+      "openInterest": 519791,
+      "managed": {
+        "long": 171853,
+        "short": 36826,
+        "net": 135027
+      },
+      "producer": {
+        "long": 37917,
+        "short": 68644,
+        "net": -30727
+      },
+      "swap": {
+        "long": 73085,
+        "short": 269856,
+        "net": -196771
+      },
+      "other": {
+        "long": 106997,
+        "short": 37814,
+        "net": 69183
+      },
+      "nonreportable": {
+        "long": 50274,
+        "short": 26986,
+        "net": 23288
+      }
+    },
+    {
+      "date": "2024-05-07",
+      "openInterest": 529835,
+      "managed": {
+        "long": 164780,
+        "short": 38681,
+        "net": 126099
+      },
+      "producer": {
+        "long": 35488,
+        "short": 67658,
+        "net": -32170
+      },
+      "swap": {
+        "long": 73131,
+        "short": 268227,
+        "net": -195096
+      },
+      "other": {
+        "long": 107364,
+        "short": 33896,
+        "net": 73468
+      },
+      "nonreportable": {
+        "long": 54701,
+        "short": 27002,
+        "net": 27699
+      }
+    },
+    {
+      "date": "2024-05-14",
+      "openInterest": 522952,
+      "managed": {
+        "long": 171868,
+        "short": 41433,
+        "net": 130435
+      },
+      "producer": {
+        "long": 35446,
+        "short": 65005,
+        "net": -29559
+      },
+      "swap": {
+        "long": 75210,
+        "short": 277761,
+        "net": -202551
+      },
+      "other": {
+        "long": 105774,
+        "short": 31713,
+        "net": 74061
+      },
+      "nonreportable": {
+        "long": 52633,
+        "short": 25019,
+        "net": 27614
+      }
+    },
+    {
+      "date": "2024-05-21",
+      "openInterest": 530591,
+      "managed": {
+        "long": 190605,
+        "short": 42082,
+        "net": 148523
+      },
+      "producer": {
+        "long": 20490,
+        "short": 57460,
+        "net": -36970
+      },
+      "swap": {
+        "long": 76171,
+        "short": 297864,
+        "net": -221693
+      },
+      "other": {
+        "long": 110124,
+        "short": 28841,
+        "net": 81283
+      },
+      "nonreportable": {
+        "long": 55264,
+        "short": 26407,
+        "net": 28857
+      }
+    },
+    {
+      "date": "2024-05-28",
+      "openInterest": 485430,
+      "managed": {
+        "long": 174444,
+        "short": 25616,
+        "net": 148828
+      },
+      "producer": {
+        "long": 18542,
+        "short": 59186,
+        "net": -40644
+      },
+      "swap": {
+        "long": 69148,
+        "short": 289454,
+        "net": -220306
+      },
+      "other": {
+        "long": 112293,
+        "short": 24536,
+        "net": 87757
+      },
+      "nonreportable": {
+        "long": 51528,
+        "short": 27163,
+        "net": 24365
+      }
+    },
+    {
+      "date": "2024-06-04",
+      "openInterest": 447488,
+      "managed": {
+        "long": 172560,
+        "short": 20261,
+        "net": 152299
+      },
+      "producer": {
+        "long": 15962,
+        "short": 55848,
+        "net": -39886
+      },
+      "swap": {
+        "long": 56738,
+        "short": 282783,
+        "net": -226045
+      },
+      "other": {
+        "long": 112006,
+        "short": 27003,
+        "net": 85003
+      },
+      "nonreportable": {
+        "long": 49807,
+        "short": 21178,
+        "net": 28629
+      }
+    },
+    {
+      "date": "2024-06-11",
+      "openInterest": 436857,
+      "managed": {
+        "long": 168424,
+        "short": 15459,
+        "net": 152965
+      },
+      "producer": {
+        "long": 15922,
+        "short": 56729,
+        "net": -40807
+      },
+      "swap": {
+        "long": 55474,
+        "short": 275178,
+        "net": -219704
+      },
+      "other": {
+        "long": 108345,
+        "short": 27384,
+        "net": 80961
+      },
+      "nonreportable": {
+        "long": 50311,
+        "short": 23726,
+        "net": 26585
+      }
+    },
+    {
+      "date": "2024-06-18",
+      "openInterest": 444345,
+      "managed": {
+        "long": 177639,
+        "short": 17018,
+        "net": 160621
+      },
+      "producer": {
+        "long": 15030,
+        "short": 57588,
+        "net": -42558
+      },
+      "swap": {
+        "long": 55910,
+        "short": 281082,
+        "net": -225172
+      },
+      "other": {
+        "long": 109508,
+        "short": 27045,
+        "net": 82463
+      },
+      "nonreportable": {
+        "long": 47659,
+        "short": 23013,
+        "net": 24646
+      }
+    },
+    {
+      "date": "2024-06-25",
+      "openInterest": 452190,
+      "managed": {
+        "long": 174756,
+        "short": 16554,
+        "net": 158202
+      },
+      "producer": {
+        "long": 15601,
+        "short": 58204,
+        "net": -42603
+      },
+      "swap": {
+        "long": 58751,
+        "short": 287636,
+        "net": -228885
+      },
+      "other": {
+        "long": 110129,
+        "short": 22102,
+        "net": 88027
+      },
+      "nonreportable": {
+        "long": 48436,
+        "short": 23177,
+        "net": 25259
+      }
+    },
+    {
+      "date": "2024-07-02",
+      "openInterest": 454730,
+      "managed": {
+        "long": 167688,
+        "short": 16873,
+        "net": 150815
+      },
+      "producer": {
+        "long": 14424,
+        "short": 59169,
+        "net": -44745
+      },
+      "swap": {
+        "long": 59925,
+        "short": 279979,
+        "net": -220054
+      },
+      "other": {
+        "long": 112429,
+        "short": 21701,
+        "net": 90728
+      },
+      "nonreportable": {
+        "long": 47694,
+        "short": 24438,
+        "net": 23256
+      }
+    },
+    {
+      "date": "2024-07-09",
+      "openInterest": 516324,
+      "managed": {
+        "long": 181982,
+        "short": 24515,
+        "net": 157467
+      },
+      "producer": {
+        "long": 14031,
+        "short": 66422,
+        "net": -52391
+      },
+      "swap": {
+        "long": 62183,
+        "short": 290421,
+        "net": -228238
+      },
+      "other": {
+        "long": 121061,
+        "short": 23753,
+        "net": 97308
+      },
+      "nonreportable": {
+        "long": 50623,
+        "short": 24769,
+        "net": 25854
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "openInterest": 579862,
+      "managed": {
+        "long": 216502,
+        "short": 31970,
+        "net": 184532
+      },
+      "producer": {
+        "long": 23789,
+        "short": 84107,
+        "net": -60318
+      },
+      "swap": {
+        "long": 62675,
+        "short": 311661,
+        "net": -248986
+      },
+      "other": {
+        "long": 133325,
+        "short": 32833,
+        "net": 100492
+      },
+      "nonreportable": {
+        "long": 53814,
+        "short": 29534,
+        "net": 24280
+      }
+    },
+    {
+      "date": "2024-07-23",
+      "openInterest": 572306,
+      "managed": {
+        "long": 197802,
+        "short": 34942,
+        "net": 162860
+      },
+      "producer": {
+        "long": 15685,
+        "short": 69900,
+        "net": -54215
+      },
+      "swap": {
+        "long": 58598,
+        "short": 305308,
+        "net": -246710
+      },
+      "other": {
+        "long": 143798,
+        "short": 33584,
+        "net": 110214
+      },
+      "nonreportable": {
+        "long": 53705,
+        "short": 25854,
+        "net": 27851
+      }
+    },
+    {
+      "date": "2024-07-30",
+      "openInterest": 510914,
+      "managed": {
+        "long": 185586,
+        "short": 33222,
+        "net": 152364
+      },
+      "producer": {
+        "long": 19913,
+        "short": 64678,
+        "net": -44765
+      },
+      "swap": {
+        "long": 55083,
+        "short": 283175,
+        "net": -228092
+      },
+      "other": {
+        "long": 127778,
+        "short": 33541,
+        "net": 94237
+      },
+      "nonreportable": {
+        "long": 49931,
+        "short": 23675,
+        "net": 26256
+      }
+    },
+    {
+      "date": "2024-08-06",
+      "openInterest": 480645,
+      "managed": {
+        "long": 180303,
+        "short": 29517,
+        "net": 150786
+      },
+      "producer": {
+        "long": 16637,
+        "short": 63782,
+        "net": -47145
+      },
+      "swap": {
+        "long": 56985,
+        "short": 278874,
+        "net": -221889
+      },
+      "other": {
+        "long": 117816,
+        "short": 29853,
+        "net": 87963
+      },
+      "nonreportable": {
+        "long": 51205,
+        "short": 20920,
+        "net": 30285
+      }
+    },
+    {
+      "date": "2024-08-13",
+      "openInterest": 505872,
+      "managed": {
+        "long": 203844,
+        "short": 25929,
+        "net": 177915
+      },
+      "producer": {
+        "long": 16717,
+        "short": 69652,
+        "net": -52935
+      },
+      "swap": {
+        "long": 54827,
+        "short": 294394,
+        "net": -239567
+      },
+      "other": {
+        "long": 124925,
+        "short": 35576,
+        "net": 89349
+      },
+      "nonreportable": {
+        "long": 50388,
+        "short": 25150,
+        "net": 25238
+      }
+    },
+    {
+      "date": "2024-08-20",
+      "openInterest": 532867,
+      "managed": {
+        "long": 222142,
+        "short": 28837,
+        "net": 193305
+      },
+      "producer": {
+        "long": 15569,
+        "short": 79564,
+        "net": -63995
+      },
+      "swap": {
+        "long": 53461,
+        "short": 305972,
+        "net": -252511
+      },
+      "other": {
+        "long": 133409,
+        "short": 35461,
+        "net": 97948
+      },
+      "nonreportable": {
+        "long": 52918,
+        "short": 27665,
+        "net": 25253
+      }
+    },
+    {
+      "date": "2024-08-27",
+      "openInterest": 521759,
+      "managed": {
+        "long": 217976,
+        "short": 17685,
+        "net": 200291
+      },
+      "producer": {
+        "long": 10714,
+        "short": 79098,
+        "net": -68384
+      },
+      "swap": {
+        "long": 52822,
+        "short": 306757,
+        "net": -253935
+      },
+      "other": {
+        "long": 125354,
+        "short": 31200,
+        "net": 94154
+      },
+      "nonreportable": {
+        "long": 54689,
+        "short": 26815,
+        "net": 27874
+      }
+    },
+    {
+      "date": "2024-09-03",
+      "openInterest": 511136,
+      "managed": {
+        "long": 212086,
+        "short": 19996,
+        "net": 192090
+      },
+      "producer": {
+        "long": 11841,
+        "short": 81470,
+        "net": -69629
+      },
+      "swap": {
+        "long": 55089,
+        "short": 297347,
+        "net": -242258
+      },
+      "other": {
+        "long": 127071,
+        "short": 31603,
+        "net": 95468
+      },
+      "nonreportable": {
+        "long": 51198,
+        "short": 26869,
+        "net": 24329
+      }
+    },
+    {
+      "date": "2024-09-10",
+      "openInterest": 511501,
+      "managed": {
+        "long": 213645,
+        "short": 23190,
+        "net": 190455
+      },
+      "producer": {
+        "long": 12568,
+        "short": 87942,
+        "net": -75374
+      },
+      "swap": {
+        "long": 52865,
+        "short": 284390,
+        "net": -231525
+      },
+      "other": {
+        "long": 126361,
+        "short": 34315,
+        "net": 92046
+      },
+      "nonreportable": {
+        "long": 50937,
+        "short": 26539,
+        "net": 24398
+      }
+    },
+    {
+      "date": "2024-09-17",
+      "openInterest": 537627,
+      "managed": {
+        "long": 241844,
+        "short": 25489,
+        "net": 216355
+      },
+      "producer": {
+        "long": 12663,
+        "short": 90250,
+        "net": -77587
+      },
+      "swap": {
+        "long": 45549,
+        "short": 303089,
+        "net": -257540
+      },
+      "other": {
+        "long": 127890,
+        "short": 34179,
+        "net": 93711
+      },
+      "nonreportable": {
+        "long": 52976,
+        "short": 27915,
+        "net": 25061
+      }
+    },
+    {
+      "date": "2024-09-24",
+      "openInterest": 564640,
+      "managed": {
+        "long": 256435,
+        "short": 37406,
+        "net": 219029
+      },
+      "producer": {
+        "long": 13517,
+        "short": 93547,
+        "net": -80030
+      },
+      "swap": {
+        "long": 45705,
+        "short": 305381,
+        "net": -259676
+      },
+      "other": {
+        "long": 131137,
+        "short": 34776,
+        "net": 96361
+      },
+      "nonreportable": {
+        "long": 53444,
+        "short": 29128,
+        "net": 24316
+      }
+    },
+    {
+      "date": "2024-10-01",
+      "openInterest": 533107,
+      "managed": {
+        "long": 247867,
+        "short": 33405,
+        "net": 214462
+      },
+      "producer": {
+        "long": 12220,
+        "short": 87446,
+        "net": -75226
+      },
+      "swap": {
+        "long": 42840,
+        "short": 295138,
+        "net": -252298
+      },
+      "other": {
+        "long": 122184,
+        "short": 36715,
+        "net": 85469
+      },
+      "nonreportable": {
+        "long": 53191,
+        "short": 25598,
+        "net": 27593
+      }
+    },
+    {
+      "date": "2024-10-08",
+      "openInterest": 520316,
+      "managed": {
+        "long": 227596,
+        "short": 33537,
+        "net": 194059
+      },
+      "producer": {
+        "long": 12830,
+        "short": 83981,
+        "net": -71151
+      },
+      "swap": {
+        "long": 44853,
+        "short": 277678,
+        "net": -232825
+      },
+      "other": {
+        "long": 121295,
+        "short": 37174,
+        "net": 84121
+      },
+      "nonreportable": {
+        "long": 51440,
+        "short": 25644,
+        "net": 25796
+      }
+    },
+    {
+      "date": "2024-10-15",
+      "openInterest": 541232,
+      "managed": {
+        "long": 233871,
+        "short": 34450,
+        "net": 199421
+      },
+      "producer": {
+        "long": 13088,
+        "short": 87786,
+        "net": -74698
+      },
+      "swap": {
+        "long": 43311,
+        "short": 281271,
+        "net": -237960
+      },
+      "other": {
+        "long": 123623,
+        "short": 36610,
+        "net": 87013
+      },
+      "nonreportable": {
+        "long": 50490,
+        "short": 24266,
+        "net": 26224
+      }
+    },
+    {
+      "date": "2024-10-22",
+      "openInterest": 573760,
+      "managed": {
+        "long": 242427,
+        "short": 37267,
+        "net": 205160
+      },
+      "producer": {
+        "long": 12942,
+        "short": 95037,
+        "net": -82095
+      },
+      "swap": {
+        "long": 39452,
+        "short": 282058,
+        "net": -242606
+      },
+      "other": {
+        "long": 129386,
+        "short": 38342,
+        "net": 91044
+      },
+      "nonreportable": {
+        "long": 54214,
+        "short": 25717,
+        "net": 28497
+      }
+    },
+    {
+      "date": "2024-10-29",
+      "openInterest": 579468,
+      "managed": {
+        "long": 234856,
+        "short": 39683,
+        "net": 195173
+      },
+      "producer": {
+        "long": 12379,
+        "short": 86999,
+        "net": -74620
+      },
+      "swap": {
+        "long": 40174,
+        "short": 269225,
+        "net": -229051
+      },
+      "other": {
+        "long": 131780,
+        "short": 48300,
+        "net": 83480
+      },
+      "nonreportable": {
+        "long": 53432,
+        "short": 28414,
+        "net": 25018
+      }
+    },
+    {
+      "date": "2024-11-05",
+      "openInterest": 558034,
+      "managed": {
+        "long": 219687,
+        "short": 36684,
+        "net": 183003
+      },
+      "producer": {
+        "long": 13066,
+        "short": 82429,
+        "net": -69363
+      },
+      "swap": {
+        "long": 39763,
+        "short": 253459,
+        "net": -213696
+      },
+      "other": {
+        "long": 117129,
+        "short": 44803,
+        "net": 72326
+      },
+      "nonreportable": {
+        "long": 52637,
+        "short": 24907,
+        "net": 27730
+      }
+    },
+    {
+      "date": "2024-11-12",
+      "openInterest": 535981,
+      "managed": {
+        "long": 203661,
+        "short": 38365,
+        "net": 165296
+      },
+      "producer": {
+        "long": 13211,
+        "short": 80667,
+        "net": -67456
+      },
+      "swap": {
+        "long": 36733,
+        "short": 234859,
+        "net": -198126
+      },
+      "other": {
+        "long": 112564,
+        "short": 41409,
+        "net": 71155
+      },
+      "nonreportable": {
+        "long": 56838,
+        "short": 27707,
+        "net": 29131
+      }
+    },
+    {
+      "date": "2024-11-19",
+      "openInterest": 502952,
+      "managed": {
+        "long": 193355,
+        "short": 38181,
+        "net": 155174
+      },
+      "producer": {
+        "long": 13787,
+        "short": 84104,
+        "net": -70317
+      },
+      "swap": {
+        "long": 34758,
+        "short": 226763,
+        "net": -192005
+      },
+      "other": {
+        "long": 115999,
+        "short": 36806,
+        "net": 79193
+      },
+      "nonreportable": {
+        "long": 52421,
+        "short": 24466,
+        "net": 27955
+      }
+    },
+    {
+      "date": "2024-11-26",
+      "openInterest": 472660,
+      "managed": {
+        "long": 203596,
+        "short": 24306,
+        "net": 179290
+      },
+      "producer": {
+        "long": 14309,
+        "short": 81389,
+        "net": -67080
+      },
+      "swap": {
+        "long": 32845,
+        "short": 238285,
+        "net": -205440
+      },
+      "other": {
+        "long": 99805,
+        "short": 28757,
+        "net": 71048
+      },
+      "nonreportable": {
+        "long": 46574,
+        "short": 24392,
+        "net": 22182
+      }
+    },
+    {
+      "date": "2024-12-03",
+      "openInterest": 462040,
+      "managed": {
+        "long": 203580,
+        "short": 22845,
+        "net": 180735
+      },
+      "producer": {
+        "long": 10967,
+        "short": 73308,
+        "net": -62341
+      },
+      "swap": {
+        "long": 32964,
+        "short": 256898,
+        "net": -223934
+      },
+      "other": {
+        "long": 104031,
+        "short": 25030,
+        "net": 79001
+      },
+      "nonreportable": {
+        "long": 48337,
+        "short": 21798,
+        "net": 26539
+      }
+    },
+    {
+      "date": "2024-12-10",
+      "openInterest": 483346,
+      "managed": {
+        "long": 218482,
+        "short": 22404,
+        "net": 196078
+      },
+      "producer": {
+        "long": 11204,
+        "short": 77649,
+        "net": -66445
+      },
+      "swap": {
+        "long": 33312,
+        "short": 263738,
+        "net": -230426
+      },
+      "other": {
+        "long": 105850,
+        "short": 26342,
+        "net": 79508
+      },
+      "nonreportable": {
+        "long": 46448,
+        "short": 25163,
+        "net": 21285
+      }
+    },
+    {
+      "date": "2024-12-17",
+      "openInterest": 466571,
+      "managed": {
+        "long": 201880,
+        "short": 18378,
+        "net": 183502
+      },
+      "producer": {
+        "long": 9971,
+        "short": 82426,
+        "net": -72455
+      },
+      "swap": {
+        "long": 32522,
+        "short": 245300,
+        "net": -212778
+      },
+      "other": {
+        "long": 101098,
+        "short": 22559,
+        "net": 78539
+      },
+      "nonreportable": {
+        "long": 48388,
+        "short": 25196,
+        "net": 23192
+      }
+    },
+    {
+      "date": "2024-12-24",
+      "openInterest": 454646,
+      "managed": {
+        "long": 186099,
+        "short": 20602,
+        "net": 165497
+      },
+      "producer": {
+        "long": 9198,
+        "short": 83987,
+        "net": -74789
+      },
+      "swap": {
+        "long": 31583,
+        "short": 230130,
+        "net": -198547
+      },
+      "other": {
+        "long": 103317,
+        "short": 21185,
+        "net": 82132
+      },
+      "nonreportable": {
+        "long": 47813,
+        "short": 22106,
+        "net": 25707
+      }
+    },
+    {
+      "date": "2024-12-31",
+      "openInterest": 458584,
+      "managed": {
+        "long": 182128,
+        "short": 15959,
+        "net": 166169
+      },
+      "producer": {
+        "long": 9983,
+        "short": 83344,
+        "net": -73361
+      },
+      "swap": {
+        "long": 31829,
+        "short": 229764,
+        "net": -197935
+      },
+      "other": {
+        "long": 100779,
+        "short": 19669,
+        "net": 81110
+      },
+      "nonreportable": {
+        "long": 47357,
+        "short": 23340,
+        "net": 24017
+      }
+    },
+    {
+      "date": "2025-01-07",
+      "openInterest": 477043,
+      "managed": {
+        "long": 191873,
+        "short": 14232,
+        "net": 177641
+      },
+      "producer": {
+        "long": 10137,
+        "short": 81104,
+        "net": -70967
+      },
+      "swap": {
+        "long": 32687,
+        "short": 240366,
+        "net": -207679
+      },
+      "other": {
+        "long": 99848,
+        "short": 22578,
+        "net": 77270
+      },
+      "nonreportable": {
+        "long": 47574,
+        "short": 23839,
+        "net": 23735
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "openInterest": 526467,
+      "managed": {
+        "long": 206968,
+        "short": 11346,
+        "net": 195622
+      },
+      "producer": {
+        "long": 21043,
+        "short": 95030,
+        "net": -73987
+      },
+      "swap": {
+        "long": 30150,
+        "short": 258615,
+        "net": -228465
+      },
+      "other": {
+        "long": 105600,
+        "short": 21859,
+        "net": 83741
+      },
+      "nonreportable": {
+        "long": 48250,
+        "short": 25161,
+        "net": 23089
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "openInterest": 571387,
+      "managed": {
+        "long": 226964,
+        "short": 11095,
+        "net": 215869
+      },
+      "producer": {
+        "long": 20111,
+        "short": 100717,
+        "net": -80606
+      },
+      "swap": {
+        "long": 30427,
+        "short": 276429,
+        "net": -246002
+      },
+      "other": {
+        "long": 110325,
+        "short": 25410,
+        "net": 84915
+      },
+      "nonreportable": {
+        "long": 50638,
+        "short": 24814,
+        "net": 25824
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "openInterest": 577505,
+      "managed": {
+        "long": 227871,
+        "short": 17331,
+        "net": 210540
+      },
+      "producer": {
+        "long": 19532,
+        "short": 100430,
+        "net": -80898
+      },
+      "swap": {
+        "long": 29725,
+        "short": 272549,
+        "net": -242824
+      },
+      "other": {
+        "long": 110500,
+        "short": 21631,
+        "net": 88869
+      },
+      "nonreportable": {
+        "long": 49224,
+        "short": 24911,
+        "net": 24313
+      }
+    },
+    {
+      "date": "2025-02-04",
+      "openInterest": 542004,
+      "managed": {
+        "long": 240485,
+        "short": 30952,
+        "net": 209533
+      },
+      "producer": {
+        "long": 19046,
+        "short": 82490,
+        "net": -63444
+      },
+      "swap": {
+        "long": 21824,
+        "short": 286555,
+        "net": -264731
+      },
+      "other": {
+        "long": 116015,
+        "short": 23040,
+        "net": 92975
+      },
+      "nonreportable": {
+        "long": 49522,
+        "short": 23855,
+        "net": 25667
+      }
+    },
+    {
+      "date": "2025-02-11",
+      "openInterest": 528719,
+      "managed": {
+        "long": 229071,
+        "short": 34268,
+        "net": 194803
+      },
+      "producer": {
+        "long": 20935,
+        "short": 81836,
+        "net": -60901
+      },
+      "swap": {
+        "long": 19501,
+        "short": 268488,
+        "net": -248987
+      },
+      "other": {
+        "long": 114695,
+        "short": 24994,
+        "net": 89701
+      },
+      "nonreportable": {
+        "long": 49509,
+        "short": 24125,
+        "net": 25384
+      }
+    },
+    {
+      "date": "2025-02-18",
+      "openInterest": 522330,
+      "managed": {
+        "long": 222538,
+        "short": 37209,
+        "net": 185329
+      },
+      "producer": {
+        "long": 22176,
+        "short": 82595,
+        "net": -60419
+      },
+      "swap": {
+        "long": 16566,
+        "short": 252218,
+        "net": -235652
+      },
+      "other": {
+        "long": 111505,
+        "short": 28160,
+        "net": 83345
+      },
+      "nonreportable": {
+        "long": 50882,
+        "short": 23485,
+        "net": 27397
+      }
+    },
+    {
+      "date": "2025-02-25",
+      "openInterest": 512179,
+      "managed": {
+        "long": 212694,
+        "short": 32882,
+        "net": 179812
+      },
+      "producer": {
+        "long": 24007,
+        "short": 84497,
+        "net": -60490
+      },
+      "swap": {
+        "long": 14682,
+        "short": 242292,
+        "net": -227610
+      },
+      "other": {
+        "long": 104254,
+        "short": 22441,
+        "net": 81813
+      },
+      "nonreportable": {
+        "long": 48803,
+        "short": 22328,
+        "net": 26475
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "openInterest": 489270,
+      "managed": {
+        "long": 204965,
+        "short": 38307,
+        "net": 166658
+      },
+      "producer": {
+        "long": 24881,
+        "short": 83460,
+        "net": -58579
+      },
+      "swap": {
+        "long": 16574,
+        "short": 229110,
+        "net": -212536
+      },
+      "other": {
+        "long": 98167,
+        "short": 21564,
+        "net": 76603
+      },
+      "nonreportable": {
+        "long": 49602,
+        "short": 21748,
+        "net": 27854
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "openInterest": 511276,
+      "managed": {
+        "long": 204907,
+        "short": 37331,
+        "net": 167576
+      },
+      "producer": {
+        "long": 24799,
+        "short": 82058,
+        "net": -57259
+      },
+      "swap": {
+        "long": 18459,
+        "short": 226388,
+        "net": -207929
+      },
+      "other": {
+        "long": 91265,
+        "short": 22741,
+        "net": 68524
+      },
+      "nonreportable": {
+        "long": 53747,
+        "short": 24659,
+        "net": 29088
+      }
+    },
+    {
+      "date": "2025-03-18",
+      "openInterest": 533566,
+      "managed": {
+        "long": 220879,
+        "short": 37045,
+        "net": 183834
+      },
+      "producer": {
+        "long": 23881,
+        "short": 88261,
+        "net": -64380
+      },
+      "swap": {
+        "long": 16899,
+        "short": 237687,
+        "net": -220788
+      },
+      "other": {
+        "long": 100775,
+        "short": 26677,
+        "net": 74098
+      },
+      "nonreportable": {
+        "long": 52841,
+        "short": 25605,
+        "net": 27236
+      }
+    },
+    {
+      "date": "2025-03-25",
+      "openInterest": 511482,
+      "managed": {
+        "long": 213505,
+        "short": 38773,
+        "net": 174732
+      },
+      "producer": {
+        "long": 14682,
+        "short": 77439,
+        "net": -62757
+      },
+      "swap": {
+        "long": 16248,
+        "short": 232089,
+        "net": -215841
+      },
+      "other": {
+        "long": 103067,
+        "short": 28003,
+        "net": 75064
+      },
+      "nonreportable": {
+        "long": 52852,
+        "short": 24050,
+        "net": 28802
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "openInterest": 498746,
+      "managed": {
+        "long": 204833,
+        "short": 62834,
+        "net": 141999
+      },
+      "producer": {
+        "long": 11538,
+        "short": 73853,
+        "net": -62315
+      },
+      "swap": {
+        "long": 24256,
+        "short": 227002,
+        "net": -202746
+      },
+      "other": {
+        "long": 123103,
+        "short": 26668,
+        "net": 96435
+      },
+      "nonreportable": {
+        "long": 50688,
+        "short": 24061,
+        "net": 26627
+      }
+    },
+    {
+      "date": "2025-04-08",
+      "openInterest": 445468,
+      "managed": {
+        "long": 175393,
+        "short": 44407,
+        "net": 130986
+      },
+      "producer": {
+        "long": 14087,
+        "short": 66734,
+        "net": -52647
+      },
+      "swap": {
+        "long": 27128,
+        "short": 206664,
+        "net": -179536
+      },
+      "other": {
+        "long": 94440,
+        "short": 24711,
+        "net": 69729
+      },
+      "nonreportable": {
+        "long": 50486,
+        "short": 19018,
+        "net": 31468
+      }
+    },
+    {
+      "date": "2025-04-15",
+      "openInterest": 456628,
+      "managed": {
+        "long": 168400,
+        "short": 43546,
+        "net": 124854
+      },
+      "producer": {
+        "long": 14214,
+        "short": 65819,
+        "net": -51605
+      },
+      "swap": {
+        "long": 29121,
+        "short": 209428,
+        "net": -180307
+      },
+      "other": {
+        "long": 103307,
+        "short": 25951,
+        "net": 77356
+      },
+      "nonreportable": {
+        "long": 51349,
+        "short": 21647,
+        "net": 29702
+      }
+    },
+    {
+      "date": "2025-04-22",
+      "openInterest": 465351,
+      "managed": {
+        "long": 166360,
+        "short": 45458,
+        "net": 120902
+      },
+      "producer": {
+        "long": 18110,
+        "short": 63420,
+        "net": -45310
+      },
+      "swap": {
+        "long": 37696,
+        "short": 194654,
+        "net": -156958
+      },
+      "other": {
+        "long": 92536,
+        "short": 38060,
+        "net": 54476
+      },
+      "nonreportable": {
+        "long": 50904,
+        "short": 24014,
+        "net": 26890
+      }
+    },
+    {
+      "date": "2025-04-29",
+      "openInterest": 451868,
+      "managed": {
+        "long": 150715,
+        "short": 44820,
+        "net": 105895
+      },
+      "producer": {
+        "long": 17714,
+        "short": 62788,
+        "net": -45074
+      },
+      "swap": {
+        "long": 34475,
+        "short": 180162,
+        "net": -145687
+      },
+      "other": {
+        "long": 89662,
+        "short": 32239,
+        "net": 57423
+      },
+      "nonreportable": {
+        "long": 50675,
+        "short": 23232,
+        "net": 27443
+      }
+    },
+    {
+      "date": "2025-05-06",
+      "openInterest": 452414,
+      "managed": {
+        "long": 144383,
+        "short": 42292,
+        "net": 102091
+      },
+      "producer": {
+        "long": 17705,
+        "short": 62990,
+        "net": -45285
+      },
+      "swap": {
+        "long": 37106,
+        "short": 183924,
+        "net": -146818
+      },
+      "other": {
+        "long": 93062,
+        "short": 32656,
+        "net": 60406
+      },
+      "nonreportable": {
+        "long": 52632,
+        "short": 23026,
+        "net": 29606
+      }
+    },
+    {
+      "date": "2025-05-13",
+      "openInterest": 440842,
+      "managed": {
+        "long": 144410,
+        "short": 43183,
+        "net": 101227
+      },
+      "producer": {
+        "long": 17651,
+        "short": 59184,
+        "net": -41533
+      },
+      "swap": {
+        "long": 33350,
+        "short": 183024,
+        "net": -149674
+      },
+      "other": {
+        "long": 93781,
+        "short": 33799,
+        "net": 59982
+      },
+      "nonreportable": {
+        "long": 51570,
+        "short": 21572,
+        "net": 29998
+      }
+    },
+    {
+      "date": "2025-05-20",
+      "openInterest": 448000,
+      "managed": {
+        "long": 149149,
+        "short": 41520,
+        "net": 107629
+      },
+      "producer": {
+        "long": 20202,
+        "short": 59019,
+        "net": -38817
+      },
+      "swap": {
+        "long": 34444,
+        "short": 193275,
+        "net": -158831
+      },
+      "other": {
+        "long": 88913,
+        "short": 32561,
+        "net": 56352
+      },
+      "nonreportable": {
+        "long": 54053,
+        "short": 20386,
+        "net": 33667
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "openInterest": 437538,
+      "managed": {
+        "long": 147502,
+        "short": 36686,
+        "net": 110816
+      },
+      "producer": {
+        "long": 15935,
+        "short": 62127,
+        "net": -46192
+      },
+      "swap": {
+        "long": 39356,
+        "short": 200751,
+        "net": -161395
+      },
+      "other": {
+        "long": 86585,
+        "short": 23217,
+        "net": 63368
+      },
+      "nonreportable": {
+        "long": 56541,
+        "short": 23138,
+        "net": 33403
+      }
+    },
+    {
+      "date": "2025-06-03",
+      "openInterest": 415941,
+      "managed": {
+        "long": 159966,
+        "short": 36384,
+        "net": 123582
+      },
+      "producer": {
+        "long": 14319,
+        "short": 62427,
+        "net": -48108
+      },
+      "swap": {
+        "long": 40187,
+        "short": 212905,
+        "net": -172718
+      },
+      "other": {
+        "long": 87016,
+        "short": 22693,
+        "net": 64323
+      },
+      "nonreportable": {
+        "long": 51996,
+        "short": 19075,
+        "net": 32921
+      }
+    },
+    {
+      "date": "2025-06-10",
+      "openInterest": 417143,
+      "managed": {
+        "long": 160680,
+        "short": 36589,
+        "net": 124091
+      },
+      "producer": {
+        "long": 13381,
+        "short": 62746,
+        "net": -49365
+      },
+      "swap": {
+        "long": 38867,
+        "short": 212220,
+        "net": -173353
+      },
+      "other": {
+        "long": 85315,
+        "short": 21925,
+        "net": 63390
+      },
+      "nonreportable": {
+        "long": 54008,
+        "short": 18771,
+        "net": 35237
+      }
+    },
+    {
+      "date": "2025-06-17",
+      "openInterest": 441214,
+      "managed": {
+        "long": 167646,
+        "short": 37135,
+        "net": 130511
+      },
+      "producer": {
+        "long": 11066,
+        "short": 64028,
+        "net": -52962
+      },
+      "swap": {
+        "long": 40135,
+        "short": 224900,
+        "net": -184765
+      },
+      "other": {
+        "long": 92940,
+        "short": 22803,
+        "net": 70137
+      },
+      "nonreportable": {
+        "long": 55840,
+        "short": 18761,
+        "net": 37079
+      }
+    },
+    {
+      "date": "2025-06-24",
+      "openInterest": 434958,
+      "managed": {
+        "long": 163829,
+        "short": 38701,
+        "net": 125128
+      },
+      "producer": {
+        "long": 12319,
+        "short": 62734,
+        "net": -50415
+      },
+      "swap": {
+        "long": 40583,
+        "short": 220728,
+        "net": -180145
+      },
+      "other": {
+        "long": 92248,
+        "short": 22372,
+        "net": 69876
+      },
+      "nonreportable": {
+        "long": 55009,
+        "short": 19453,
+        "net": 35556
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "openInterest": 437662,
+      "managed": {
+        "long": 165086,
+        "short": 34726,
+        "net": 130360
+      },
+      "producer": {
+        "long": 12005,
+        "short": 61418,
+        "net": -49413
+      },
+      "swap": {
+        "long": 37260,
+        "short": 223916,
+        "net": -186656
+      },
+      "other": {
+        "long": 93545,
+        "short": 21925,
+        "net": 71620
+      },
+      "nonreportable": {
+        "long": 53324,
+        "short": 19235,
+        "net": 34089
+      }
+    },
+    {
+      "date": "2025-07-08",
+      "openInterest": 443144,
+      "managed": {
+        "long": 164685,
+        "short": 35743,
+        "net": 128942
+      },
+      "producer": {
+        "long": 13615,
+        "short": 60427,
+        "net": -46812
+      },
+      "swap": {
+        "long": 35359,
+        "short": 226901,
+        "net": -191542
+      },
+      "other": {
+        "long": 97000,
+        "short": 22974,
+        "net": 74026
+      },
+      "nonreportable": {
+        "long": 56291,
+        "short": 20905,
+        "net": 35386
+      }
+    },
+    {
+      "date": "2025-07-15",
+      "openInterest": 448531,
+      "managed": {
+        "long": 172657,
+        "short": 35930,
+        "net": 136727
+      },
+      "producer": {
+        "long": 14716,
+        "short": 61452,
+        "net": -46736
+      },
+      "swap": {
+        "long": 33649,
+        "short": 237601,
+        "net": -203952
+      },
+      "other": {
+        "long": 97570,
+        "short": 21182,
+        "net": 76388
+      },
+      "nonreportable": {
+        "long": 56976,
+        "short": 19403,
+        "net": 37573
+      }
+    },
+    {
+      "date": "2025-07-22",
+      "openInterest": 489423,
+      "managed": {
+        "long": 194753,
+        "short": 34819,
+        "net": 159934
+      },
+      "producer": {
+        "long": 11207,
+        "short": 62569,
+        "net": -51362
+      },
+      "swap": {
+        "long": 33299,
+        "short": 264274,
+        "net": -230975
+      },
+      "other": {
+        "long": 117196,
+        "short": 24092,
+        "net": 93104
+      },
+      "nonreportable": {
+        "long": 54052,
+        "short": 24753,
+        "net": 29299
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "openInterest": 445259,
+      "managed": {
+        "long": 170918,
+        "short": 36662,
+        "net": 134256
+      },
+      "producer": {
+        "long": 12294,
+        "short": 60464,
+        "net": -48170
+      },
+      "swap": {
+        "long": 39149,
+        "short": 250058,
+        "net": -210909
+      },
+      "other": {
+        "long": 110323,
+        "short": 20983,
+        "net": 89340
+      },
+      "nonreportable": {
+        "long": 53216,
+        "short": 17733,
+        "net": 35483
+      }
+    },
+    {
+      "date": "2025-08-05",
+      "openInterest": 449647,
+      "managed": {
+        "long": 186304,
+        "short": 32317,
+        "net": 153987
+      },
+      "producer": {
+        "long": 21760,
+        "short": 55777,
+        "net": -34017
+      },
+      "swap": {
+        "long": 36874,
+        "short": 273003,
+        "net": -236129
+      },
+      "other": {
+        "long": 105890,
+        "short": 22827,
+        "net": 83063
+      },
+      "nonreportable": {
+        "long": 52597,
+        "short": 19501,
+        "net": 33096
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "openInterest": 446152,
+      "managed": {
+        "long": 182337,
+        "short": 34050,
+        "net": 148287
+      },
+      "producer": {
+        "long": 9324,
+        "short": 49074,
+        "net": -39750
+      },
+      "swap": {
+        "long": 35951,
+        "short": 259266,
+        "net": -223315
+      },
+      "other": {
+        "long": 105778,
+        "short": 24580,
+        "net": 81198
+      },
+      "nonreportable": {
+        "long": 53656,
+        "short": 20076,
+        "net": 33580
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "openInterest": 438541,
+      "managed": {
+        "long": 173388,
+        "short": 36003,
+        "net": 137385
+      },
+      "producer": {
+        "long": 9389,
+        "short": 49394,
+        "net": -40005
+      },
+      "swap": {
+        "long": 39607,
+        "short": 249567,
+        "net": -209960
+      },
+      "other": {
+        "long": 101889,
+        "short": 26684,
+        "net": 75205
+      },
+      "nonreportable": {
+        "long": 56098,
+        "short": 18723,
+        "net": 37375
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "openInterest": 443760,
+      "managed": {
+        "long": 175494,
+        "short": 33577,
+        "net": 141917
+      },
+      "producer": {
+        "long": 9620,
+        "short": 51948,
+        "net": -42328
+      },
+      "swap": {
+        "long": 45622,
+        "short": 254259,
+        "net": -208637
+      },
+      "other": {
+        "long": 100273,
+        "short": 27879,
+        "net": 72394
+      },
+      "nonreportable": {
+        "long": 56712,
+        "short": 20058,
+        "net": 36654
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "openInterest": 492908,
+      "managed": {
+        "long": 196127,
+        "short": 34625,
+        "net": 161502
+      },
+      "producer": {
+        "long": 8209,
+        "short": 63511,
+        "net": -55302
+      },
+      "swap": {
+        "long": 47568,
+        "short": 266164,
+        "net": -218596
+      },
+      "other": {
+        "long": 119669,
+        "short": 31641,
+        "net": 88028
+      },
+      "nonreportable": {
+        "long": 56635,
+        "short": 32267,
+        "net": 24368
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "openInterest": 509625,
+      "managed": {
+        "long": 198907,
+        "short": 35388,
+        "net": 163519
+      },
+      "producer": {
+        "long": 9864,
+        "short": 72418,
+        "net": -62554
+      },
+      "swap": {
+        "long": 48287,
+        "short": 259108,
+        "net": -210821
+      },
+      "other": {
+        "long": 125968,
+        "short": 27747,
+        "net": 98221
+      },
+      "nonreportable": {
+        "long": 58990,
+        "short": 47355,
+        "net": 11635
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "openInterest": 516221,
+      "managed": {
+        "long": 195347,
+        "short": 36376,
+        "net": 158971
+      },
+      "producer": {
+        "long": 10992,
+        "short": 76376,
+        "net": -65384
+      },
+      "swap": {
+        "long": 46465,
+        "short": 283452,
+        "net": -236987
+      },
+      "other": {
+        "long": 131431,
+        "short": 23992,
+        "net": 107439
+      },
+      "nonreportable": {
+        "long": 60872,
+        "short": 24911,
+        "net": 35961
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "openInterest": 528789,
+      "managed": {
+        "long": 198826,
+        "short": 38277,
+        "net": 160549
+      },
+      "producer": {
+        "long": 11851,
+        "short": 79003,
+        "net": -67152
+      },
+      "swap": {
+        "long": 49618,
+        "short": 280869,
+        "net": -231251
+      },
+      "other": {
+        "long": 133982,
+        "short": 27782,
+        "net": 106200
+      },
+      "nonreportable": {
+        "long": 57683,
+        "short": 26029,
+        "net": 31654
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "openInterest": 493748,
+      "managed": {
+        "long": 184199,
+        "short": 38972,
+        "net": 145227
+      },
+      "producer": {
+        "long": 10432,
+        "short": 75829,
+        "net": -65397
+      },
+      "swap": {
+        "long": 41038,
+        "short": 263877,
+        "net": -222839
+      },
+      "other": {
+        "long": 134605,
+        "short": 26924,
+        "net": 107681
+      },
+      "nonreportable": {
+        "long": 57524,
+        "short": 22196,
+        "net": 35328
+      }
+    },
+    {
+      "date": "2025-10-07",
+      "openInterest": 485559,
+      "managed": {
+        "long": 170587,
+        "short": 40828,
+        "net": 129759
+      },
+      "producer": {
+        "long": 12169,
+        "short": 77521,
+        "net": -65352
+      },
+      "swap": {
+        "long": 45558,
+        "short": 243978,
+        "net": -198420
+      },
+      "other": {
+        "long": 130211,
+        "short": 28014,
+        "net": 102197
+      },
+      "nonreportable": {
+        "long": 56574,
+        "short": 24758,
+        "net": 31816
+      }
+    },
+    {
+      "date": "2025-10-14",
+      "openInterest": 485788,
+      "managed": {
+        "long": 152187,
+        "short": 43877,
+        "net": 108310
+      },
+      "producer": {
+        "long": 14094,
+        "short": 75551,
+        "net": -61457
+      },
+      "swap": {
+        "long": 51318,
+        "short": 226728,
+        "net": -175410
+      },
+      "other": {
+        "long": 126218,
+        "short": 30612,
+        "net": 95606
+      },
+      "nonreportable": {
+        "long": 59259,
+        "short": 26308,
+        "net": 32951
+      }
+    },
+    {
+      "date": "2025-10-21",
+      "openInterest": 472421,
+      "managed": {
+        "long": 135503,
+        "short": 43276,
+        "net": 92227
+      },
+      "producer": {
+        "long": 13924,
+        "short": 71702,
+        "net": -57778
+      },
+      "swap": {
+        "long": 56832,
+        "short": 209171,
+        "net": -152339
+      },
+      "other": {
+        "long": 118348,
+        "short": 33966,
+        "net": 84382
+      },
+      "nonreportable": {
+        "long": 55921,
+        "short": 22413,
+        "net": 33508
+      }
+    },
+    {
+      "date": "2025-10-28",
+      "openInterest": 457122,
+      "managed": {
+        "long": 138605,
+        "short": 34446,
+        "net": 104159
+      },
+      "producer": {
+        "long": 12403,
+        "short": 70597,
+        "net": -58194
+      },
+      "swap": {
+        "long": 48310,
+        "short": 227143,
+        "net": -178833
+      },
+      "other": {
+        "long": 127703,
+        "short": 27198,
+        "net": 100505
+      },
+      "nonreportable": {
+        "long": 52742,
+        "short": 20379,
+        "net": 32363
+      }
+    },
+    {
+      "date": "2025-11-04",
+      "openInterest": 450399,
+      "managed": {
+        "long": 130688,
+        "short": 30143,
+        "net": 100545
+      },
+      "producer": {
+        "long": 9805,
+        "short": 69256,
+        "net": -59451
+      },
+      "swap": {
+        "long": 47195,
+        "short": 224286,
+        "net": -177091
+      },
+      "other": {
+        "long": 125884,
+        "short": 24122,
+        "net": 101762
+      },
+      "nonreportable": {
+        "long": 53661,
+        "short": 19426,
+        "net": 34235
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "openInterest": 459997,
+      "managed": {
+        "long": 134155,
+        "short": 30068,
+        "net": 104087
+      },
+      "producer": {
+        "long": 9875,
+        "short": 68621,
+        "net": -58746
+      },
+      "swap": {
+        "long": 43176,
+        "short": 229253,
+        "net": -186077
+      },
+      "other": {
+        "long": 131761,
+        "short": 28779,
+        "net": 102982
+      },
+      "nonreportable": {
+        "long": 56742,
+        "short": 18988,
+        "net": 37754
+      }
+    },
+    {
+      "date": "2025-11-18",
+      "openInterest": 471953,
+      "managed": {
+        "long": 130222,
+        "short": 32017,
+        "net": 98205
+      },
+      "producer": {
+        "long": 10061,
+        "short": 68958,
+        "net": -58897
+      },
+      "swap": {
+        "long": 44947,
+        "short": 231635,
+        "net": -186688
+      },
+      "other": {
+        "long": 139334,
+        "short": 27200,
+        "net": 112134
+      },
+      "nonreportable": {
+        "long": 54239,
+        "short": 18993,
+        "net": 35246
+      }
+    },
+    {
+      "date": "2025-11-25",
+      "openInterest": 432946,
+      "managed": {
+        "long": 136979,
+        "short": 27670,
+        "net": 109309
+      },
+      "producer": {
+        "long": 9950,
+        "short": 56642,
+        "net": -46692
+      },
+      "swap": {
+        "long": 39044,
+        "short": 233755,
+        "net": -194711
+      },
+      "other": {
+        "long": 116287,
+        "short": 21008,
+        "net": 95279
+      },
+      "nonreportable": {
+        "long": 53773,
+        "short": 16958,
+        "net": 36815
+      }
+    },
+    {
+      "date": "2025-12-02",
+      "openInterest": 418490,
+      "managed": {
+        "long": 140143,
+        "short": 19819,
+        "net": 120324
+      },
+      "producer": {
+        "long": 10094,
+        "short": 58801,
+        "net": -48707
+      },
+      "swap": {
+        "long": 33860,
+        "short": 240501,
+        "net": -206641
+      },
+      "other": {
+        "long": 121188,
+        "short": 23952,
+        "net": 97236
+      },
+      "nonreportable": {
+        "long": 55812,
+        "short": 18024,
+        "net": 37788
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "openInterest": 432569,
+      "managed": {
+        "long": 143383,
+        "short": 19835,
+        "net": 123548
+      },
+      "producer": {
+        "long": 10463,
+        "short": 59856,
+        "net": -49393
+      },
+      "swap": {
+        "long": 34556,
+        "short": 247742,
+        "net": -213186
+      },
+      "other": {
+        "long": 125102,
+        "short": 24764,
+        "net": 100338
+      },
+      "nonreportable": {
+        "long": 55485,
+        "short": 16792,
+        "net": 38693
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "openInterest": 471093,
+      "managed": {
+        "long": 152873,
+        "short": 20277,
+        "net": 132596
+      },
+      "producer": {
+        "long": 16057,
+        "short": 60306,
+        "net": -44249
+      },
+      "swap": {
+        "long": 31970,
+        "short": 262079,
+        "net": -230109
+      },
+      "other": {
+        "long": 128047,
+        "short": 26665,
+        "net": 101382
+      },
+      "nonreportable": {
+        "long": 58795,
+        "short": 18415,
+        "net": 40380
+      }
+    },
+    {
+      "date": "2025-12-23",
+      "openInterest": 492103,
+      "managed": {
+        "long": 160581,
+        "short": 24311,
+        "net": 136270
+      },
+      "producer": {
+        "long": 17158,
+        "short": 68442,
+        "net": -51284
+      },
+      "swap": {
+        "long": 30143,
+        "short": 262385,
+        "net": -232242
+      },
+      "other": {
+        "long": 129580,
+        "short": 25150,
+        "net": 104430
+      },
+      "nonreportable": {
+        "long": 62268,
+        "short": 19442,
+        "net": 42826
+      }
+    },
+    {
+      "date": "2025-12-30",
+      "openInterest": 481866,
+      "managed": {
+        "long": 148642,
+        "short": 22602,
+        "net": 126040
+      },
+      "producer": {
+        "long": 12958,
+        "short": 67439,
+        "net": -54481
+      },
+      "swap": {
+        "long": 37010,
+        "short": 257775,
+        "net": -220765
+      },
+      "other": {
+        "long": 126950,
+        "short": 21817,
+        "net": 105133
+      },
+      "nonreportable": {
+        "long": 60217,
+        "short": 16144,
+        "net": 44073
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "openInterest": 488116,
+      "managed": {
+        "long": 146445,
+        "short": 23232,
+        "net": 123213
+      },
+      "producer": {
+        "long": 13454,
+        "short": 63996,
+        "net": -50542
+      },
+      "swap": {
+        "long": 37456,
+        "short": 258949,
+        "net": -221493
+      },
+      "other": {
+        "long": 127990,
+        "short": 23571,
+        "net": 104419
+      },
+      "nonreportable": {
+        "long": 60118,
+        "short": 15715,
+        "net": 44403
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "openInterest": 527455,
+      "managed": {
+        "long": 158825,
+        "short": 24080,
+        "net": 134745
+      },
+      "producer": {
+        "long": 13998,
+        "short": 65163,
+        "net": -51165
+      },
+      "swap": {
+        "long": 31166,
+        "short": 277107,
+        "net": -245941
+      },
+      "other": {
+        "long": 137358,
+        "short": 20865,
+        "net": 116493
+      },
+      "nonreportable": {
+        "long": 66220,
+        "short": 20352,
+        "net": 45868
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "openInterest": 528004,
+      "managed": {
+        "long": 163668,
+        "short": 26224,
+        "net": 137444
+      },
+      "producer": {
+        "long": 18731,
+        "short": 61020,
+        "net": -42289
+      },
+      "swap": {
+        "long": 29522,
+        "short": 276922,
+        "net": -247400
+      },
+      "other": {
+        "long": 132104,
+        "short": 24778,
+        "net": 107326
+      },
+      "nonreportable": {
+        "long": 62136,
+        "short": 17217,
+        "net": 44919
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "openInterest": 488463,
+      "managed": {
+        "long": 143321,
+        "short": 25162,
+        "net": 118159
+      },
+      "producer": {
+        "long": 14609,
+        "short": 55198,
+        "net": -40589
+      },
+      "swap": {
+        "long": 34124,
+        "short": 241820,
+        "net": -207696
+      },
+      "other": {
+        "long": 108779,
+        "short": 21542,
+        "net": 87237
+      },
+      "nonreportable": {
+        "long": 62677,
+        "short": 19788,
+        "net": 42889
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "openInterest": 409694,
+      "managed": {
+        "long": 118936,
+        "short": 26864,
+        "net": 92072
+      },
+      "producer": {
+        "long": 14072,
+        "short": 38706,
+        "net": -24634
+      },
+      "swap": {
+        "long": 40303,
+        "short": 223447,
+        "net": -183144
+      },
+      "other": {
+        "long": 95572,
+        "short": 22040,
+        "net": 73532
+      },
+      "nonreportable": {
+        "long": 56610,
+        "short": 14436,
+        "net": 42174
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "openInterest": 404391,
+      "managed": {
+        "long": 119232,
+        "short": 27210,
+        "net": 92022
+      },
+      "producer": {
+        "long": 15737,
+        "short": 34182,
+        "net": -18445
+      },
+      "swap": {
+        "long": 43244,
+        "short": 222537,
+        "net": -179293
+      },
+      "other": {
+        "long": 93576,
+        "short": 25586,
+        "net": 67990
+      },
+      "nonreportable": {
+        "long": 52916,
+        "short": 15190,
+        "net": 37726
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "openInterest": 407078,
+      "managed": {
+        "long": 123011,
+        "short": 27118,
+        "net": 95893
+      },
+      "producer": {
+        "long": 13643,
+        "short": 35041,
+        "net": -21398
+      },
+      "swap": {
+        "long": 41702,
+        "short": 217086,
+        "net": -175384
+      },
+      "other": {
+        "long": 90421,
+        "short": 26399,
+        "net": 64022
+      },
+      "nonreportable": {
+        "long": 51821,
+        "short": 14954,
+        "net": 36867
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "openInterest": 420182,
+      "managed": {
+        "long": 121233,
+        "short": 25259,
+        "net": 95974
+      },
+      "producer": {
+        "long": 14800,
+        "short": 34618,
+        "net": -19818
+      },
+      "swap": {
+        "long": 38848,
+        "short": 219836,
+        "net": -180988
+      },
+      "other": {
+        "long": 90416,
+        "short": 27213,
+        "net": 63203
+      },
+      "nonreportable": {
+        "long": 67772,
+        "short": 26143,
+        "net": 41629
+      }
+    },
+    {
+      "date": "2026-03-03",
+      "openInterest": 409789,
+      "managed": {
+        "long": 123456,
+        "short": 25539,
+        "net": 97917
+      },
+      "producer": {
+        "long": 15219,
+        "short": 36010,
+        "net": -20791
+      },
+      "swap": {
+        "long": 39360,
+        "short": 219152,
+        "net": -179792
+      },
+      "other": {
+        "long": 90296,
+        "short": 28068,
+        "net": 62228
+      },
+      "nonreportable": {
+        "long": 55126,
+        "short": 14688,
+        "net": 40438
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "openInterest": 413956,
+      "managed": {
+        "long": 125077,
+        "short": 26678,
+        "net": 98399
+      },
+      "producer": {
+        "long": 14826,
+        "short": 34522,
+        "net": -19696
+      },
+      "swap": {
+        "long": 38318,
+        "short": 221598,
+        "net": -183280
+      },
+      "other": {
+        "long": 90368,
+        "short": 25635,
+        "net": 64733
+      },
+      "nonreportable": {
+        "long": 53424,
+        "short": 13580,
+        "net": 39844
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "openInterest": 411388,
+      "managed": {
+        "long": 130147,
+        "short": 28104,
+        "net": 102043
+      },
+      "producer": {
+        "long": 15879,
+        "short": 33713,
+        "net": -17834
+      },
+      "swap": {
+        "long": 36975,
+        "short": 217789,
+        "net": -180814
+      },
+      "other": {
+        "long": 85814,
+        "short": 27988,
+        "net": 57826
+      },
+      "nonreportable": {
+        "long": 52913,
+        "short": 14134,
+        "net": 38779
+      }
+    },
+    {
+      "date": "2026-03-24",
+      "openInterest": 403925,
+      "managed": {
+        "long": 119562,
+        "short": 27941,
+        "net": 91621
+      },
+      "producer": {
+        "long": 12761,
+        "short": 34977,
+        "net": -22216
+      },
+      "swap": {
+        "long": 36069,
+        "short": 217681,
+        "net": -181612
+      },
+      "other": {
+        "long": 101299,
+        "short": 24593,
+        "net": 76706
+      },
+      "nonreportable": {
+        "long": 49273,
+        "short": 13772,
+        "net": 35501
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "openInterest": 361409,
+      "managed": {
+        "long": 120092,
+        "short": 27278,
+        "net": 92814
+      },
+      "producer": {
+        "long": 10979,
+        "short": 30889,
+        "net": -19910
+      },
+      "swap": {
+        "long": 30201,
+        "short": 211931,
+        "net": -181730
+      },
+      "other": {
+        "long": 87510,
+        "short": 17122,
+        "net": 70388
+      },
+      "nonreportable": {
+        "long": 50617,
+        "short": 12179,
+        "net": 38438
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "openInterest": 354877,
+      "managed": {
+        "long": 120726,
+        "short": 30694,
+        "net": 90032
+      },
+      "producer": {
+        "long": 11713,
+        "short": 31009,
+        "net": -19296
+      },
+      "swap": {
+        "long": 30165,
+        "short": 204620,
+        "net": -174455
+      },
+      "other": {
+        "long": 84642,
+        "short": 18369,
+        "net": 66273
+      },
+      "nonreportable": {
+        "long": 49117,
+        "short": 11671,
+        "net": 37446
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "openInterest": 362274,
+      "managed": {
+        "long": 125422,
+        "short": 30281,
+        "net": 95141
+      },
+      "producer": {
+        "long": 13151,
+        "short": 31681,
+        "net": -18530
+      },
+      "swap": {
+        "long": 28289,
+        "short": 210841,
+        "net": -182552
+      },
+      "other": {
+        "long": 84587,
+        "short": 17202,
+        "net": 67385
+      },
+      "nonreportable": {
+        "long": 51568,
+        "short": 13012,
+        "net": 38556
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "openInterest": 365842,
+      "managed": {
+        "long": 123681,
+        "short": 30705,
+        "net": 92976
+      },
+      "producer": {
+        "long": 12633,
+        "short": 33051,
+        "net": -20418
+      },
+      "swap": {
+        "long": 28115,
+        "short": 210637,
+        "net": -182522
+      },
+      "other": {
+        "long": 89212,
+        "short": 18182,
+        "net": 71030
+      },
+      "nonreportable": {
+        "long": 52223,
+        "short": 13289,
+        "net": 38934
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "openInterest": 369530,
+      "managed": {
+        "long": 122257,
+        "short": 32505,
+        "net": 89752
+      },
+      "producer": {
+        "long": 12985,
+        "short": 33177,
+        "net": -20192
+      },
+      "swap": {
+        "long": 28032,
+        "short": 202653,
+        "net": -174621
+      },
+      "other": {
+        "long": 89561,
+        "short": 19742,
+        "net": 69819
+      },
+      "nonreportable": {
+        "long": 49280,
+        "short": 14038,
+        "net": 35242
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "openInterest": 367932,
+      "managed": {
+        "long": 123353,
+        "short": 29099,
+        "net": 94254
+      },
+      "producer": {
+        "long": 12898,
+        "short": 32010,
+        "net": -19112
+      },
+      "swap": {
+        "long": 27319,
+        "short": 207142,
+        "net": -179823
+      },
+      "other": {
+        "long": 88461,
+        "short": 19412,
+        "net": 69049
+      },
+      "nonreportable": {
+        "long": 49252,
+        "short": 13620,
+        "net": 35632
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "openInterest": 376496,
+      "managed": {
+        "long": 127242,
+        "short": 29227,
+        "net": 98015
+      },
+      "producer": {
+        "long": 11437,
+        "short": 31639,
+        "net": -20202
+      },
+      "swap": {
+        "long": 25671,
+        "short": 215727,
+        "net": -190056
+      },
+      "other": {
+        "long": 92551,
+        "short": 18944,
+        "net": 73607
+      },
+      "nonreportable": {
+        "long": 49951,
+        "short": 11315,
+        "net": 38636
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "openInterest": 379325,
+      "managed": {
+        "long": 122894,
+        "short": 29354,
+        "net": 93540
+      },
+      "producer": {
+        "long": 14800,
+        "short": 32714,
+        "net": -17914
+      },
+      "swap": {
+        "long": 28950,
+        "short": 202665,
+        "net": -173715
+      },
+      "other": {
+        "long": 88124,
+        "short": 21831,
+        "net": 66293
+      },
+      "nonreportable": {
+        "long": 47082,
+        "short": 15286,
+        "net": 31796
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "openInterest": 353489,
+      "managed": {
+        "long": 124277,
+        "short": 26831,
+        "net": 97446
+      },
+      "producer": {
+        "long": 12586,
+        "short": 32096,
+        "net": -19510
+      },
+      "swap": {
+        "long": 29033,
+        "short": 195289,
+        "net": -166256
+      },
+      "other": {
+        "long": 76427,
+        "short": 19613,
+        "net": 56814
+      },
+      "nonreportable": {
+        "long": 47149,
+        "short": 15643,
+        "net": 31506
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "openInterest": 326052,
+      "managed": {
+        "long": 129367,
+        "short": 17188,
+        "net": 112179
+      },
+      "producer": {
+        "long": 10275,
+        "short": 30429,
+        "net": -20154
+      },
+      "swap": {
+        "long": 27505,
+        "short": 213696,
+        "net": -186191
+      },
+      "other": {
+        "long": 76729,
+        "short": 12888,
+        "net": 63841
+      },
+      "nonreportable": {
+        "long": 43656,
+        "short": 13331,
+        "net": 30325
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "openInterest": 332709,
+      "managed": {
+        "long": 126280,
+        "short": 20417,
+        "net": 105863
+      },
+      "producer": {
+        "long": 10833,
+        "short": 30133,
+        "net": -19300
+      },
+      "swap": {
+        "long": 28443,
+        "short": 210179,
+        "net": -181736
+      },
+      "other": {
+        "long": 81704,
+        "short": 13730,
+        "net": 67974
+      },
+      "nonreportable": {
+        "long": 42891,
+        "short": 15692,
+        "net": 27199
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "openInterest": 339330,
+      "managed": {
+        "long": 128043,
+        "short": 14322,
+        "net": 113721
+      },
+      "producer": {
+        "long": 12191,
+        "short": 29238,
+        "net": -17047
+      },
+      "swap": {
+        "long": 29455,
+        "short": 219971,
+        "net": -190516
+      },
+      "other": {
+        "long": 83084,
+        "short": 16585,
+        "net": 66499
+      },
+      "nonreportable": {
+        "long": 43966,
+        "short": 16623,
+        "net": 27343
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "openInterest": 352167,
+      "managed": {
+        "long": 131102,
+        "short": 15707,
+        "net": 115395
+      },
+      "producer": {
+        "long": 15839,
+        "short": 25175,
+        "net": -9336
+      },
+      "swap": {
+        "long": 27738,
+        "short": 223806,
+        "net": -196068
+      },
+      "other": {
+        "long": 85926,
+        "short": 19982,
+        "net": 65944
+      },
+      "nonreportable": {
+        "long": 39265,
+        "short": 15200,
+        "net": 24065
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "openInterest": 369541,
+      "managed": {
+        "long": 134577,
+        "short": 14486,
+        "net": 120091
+      },
+      "producer": {
+        "long": 15161,
+        "short": 32207,
+        "net": -17046
+      },
+      "swap": {
+        "long": 25821,
+        "short": 229845,
+        "net": -204024
+      },
+      "other": {
+        "long": 95042,
+        "short": 21114,
+        "net": 73928
+      },
+      "nonreportable": {
+        "long": 49035,
+        "short": 21984,
+        "net": 27051
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "openInterest": 371776,
+      "managed": {
+        "long": 134941,
+        "short": 18780,
+        "net": 116161
+      },
+      "producer": {
+        "long": 14282,
+        "short": 35268,
+        "net": -20986
+      },
+      "swap": {
+        "long": 25445,
+        "short": 226741,
+        "net": -201296
+      },
+      "other": {
+        "long": 98772,
+        "short": 20687,
+        "net": 78085
+      },
+      "nonreportable": {
+        "long": 45636,
+        "short": 17600,
+        "net": 28036
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "openInterest": 383689,
+      "managed": {
+        "long": 136905,
+        "short": 16126,
+        "net": 120779
+      },
+      "producer": {
+        "long": 15840,
+        "short": 34989,
+        "net": -19149
+      },
+      "swap": {
+        "long": 25177,
+        "short": 220816,
+        "net": -195639
+      },
+      "other": {
+        "long": 90405,
+        "short": 24502,
+        "net": 65903
+      },
+      "nonreportable": {
+        "long": 44419,
+        "short": 16313,
+        "net": 28106
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "openInterest": 383368,
+      "managed": {
+        "long": 141487,
+        "short": 16656,
+        "net": 124831
+      },
+      "producer": {
+        "long": 15561,
+        "short": 34882,
+        "net": -19321
+      },
+      "swap": {
+        "long": 24959,
+        "short": 218837,
+        "net": -193878
+      },
+      "other": {
+        "long": 83298,
+        "short": 24219,
+        "net": 59079
+      },
+      "nonreportable": {
+        "long": 46143,
+        "short": 16854,
+        "net": 29289
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "openInterest": 384603,
+      "managed": {
+        "long": 135093,
+        "short": 15298,
+        "net": 119795
+      },
+      "producer": {
+        "long": 15367,
+        "short": 35916,
+        "net": -20549
+      },
+      "swap": {
+        "long": 23661,
+        "short": 215421,
+        "net": -191760
+      },
+      "other": {
+        "long": 84529,
+        "short": 22254,
+        "net": 62275
+      },
+      "nonreportable": {
+        "long": 61384,
+        "short": 31145,
+        "net": 30239
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "openInterest": 371551,
+      "managed": {
+        "long": 139809,
+        "short": 9043,
+        "net": 130766
+      },
+      "producer": {
+        "long": 15738,
+        "short": 34594,
+        "net": -18856
+      },
+      "swap": {
+        "long": 20753,
+        "short": 228388,
+        "net": -207635
+      },
+      "other": {
+        "long": 87204,
+        "short": 20336,
+        "net": 66868
+      },
+      "nonreportable": {
+        "long": 44531,
+        "short": 15674,
+        "net": 28857
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "openInterest": 400309,
+      "managed": {
+        "long": 148634,
+        "short": 10972,
+        "net": 137662
+      },
+      "producer": {
+        "long": 15716,
+        "short": 43651,
+        "net": -27935
+      },
+      "swap": {
+        "long": 19092,
+        "short": 243797,
+        "net": -224705
+      },
+      "other": {
+        "long": 102302,
+        "short": 22024,
+        "net": 80278
+      },
+      "nonreportable": {
+        "long": 51051,
+        "short": 16351,
+        "net": 34700
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "openInterest": 406260,
+      "managed": {
+        "long": 154595,
+        "short": 12947,
+        "net": 141648
+      },
+      "producer": {
+        "long": 16883,
+        "short": 46644,
+        "net": -29761
+      },
+      "swap": {
+        "long": 18704,
+        "short": 247361,
+        "net": -228657
+      },
+      "other": {
+        "long": 102307,
+        "short": 21766,
+        "net": 80541
+      },
+      "nonreportable": {
+        "long": 51347,
+        "short": 15118,
+        "net": 36229
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "openInterest": 427957,
+      "managed": {
+        "long": 159819,
+        "short": 15072,
+        "net": 144747
+      },
+      "producer": {
+        "long": 16861,
+        "short": 51419,
+        "net": -34558
+      },
+      "swap": {
+        "long": 16656,
+        "short": 261683,
+        "net": -245027
+      },
+      "other": {
+        "long": 117340,
+        "short": 18753,
+        "net": 98587
+      },
+      "nonreportable": {
+        "long": 54725,
+        "short": 18474,
+        "net": 36251
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "openInterest": 415196,
+      "managed": {
+        "long": 149721,
+        "short": 12950,
+        "net": 136771
+      },
+      "producer": {
+        "long": 17444,
+        "short": 48733,
+        "net": -31289
+      },
+      "swap": {
+        "long": 17798,
+        "short": 251227,
+        "net": -233429
+      },
+      "other": {
+        "long": 110764,
+        "short": 19411,
+        "net": 91353
+      },
+      "nonreportable": {
+        "long": 52030,
+        "short": 15436,
+        "net": 36594
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "openInterest": 411227,
+      "managed": {
+        "long": 145804,
+        "short": 10832,
+        "net": 134972
+      },
+      "producer": {
+        "long": 16588,
+        "short": 47549,
+        "net": -30961
+      },
+      "swap": {
+        "long": 14542,
+        "short": 253855,
+        "net": -239313
+      },
+      "other": {
+        "long": 115203,
+        "short": 18215,
+        "net": 96988
+      },
+      "nonreportable": {
+        "long": 52554,
+        "short": 14240,
+        "net": 38314
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "openInterest": 409899,
+      "managed": {
+        "long": 142394,
+        "short": 9278,
+        "net": 133116
+      },
+      "producer": {
+        "long": 16396,
+        "short": 44457,
+        "net": -28061
+      },
+      "swap": {
+        "long": 14690,
+        "short": 248350,
+        "net": -233660
+      },
+      "other": {
+        "long": 115665,
+        "short": 18443,
+        "net": 97222
+      },
+      "nonreportable": {
+        "long": 47460,
+        "short": 16077,
+        "net": 31383
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "openInterest": 412800,
+      "managed": {
+        "long": 135699,
+        "short": 8310,
+        "net": 127389
+      },
+      "producer": {
+        "long": 17719,
+        "short": 44496,
+        "net": -26777
+      },
+      "swap": {
+        "long": 14626,
+        "short": 250752,
+        "net": -236126
+      },
+      "other": {
+        "long": 118283,
+        "short": 19819,
+        "net": 98464
+      },
+      "nonreportable": {
+        "long": 52437,
+        "short": 15387,
+        "net": 37050
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "openInterest": 406456,
+      "managed": {
+        "long": 131711,
+        "short": 11393,
+        "net": 120318
+      },
+      "producer": {
+        "long": 18200,
+        "short": 39463,
+        "net": -21263
+      },
+      "swap": {
+        "long": 14835,
+        "short": 244539,
+        "net": -229704
+      },
+      "other": {
+        "long": 118025,
+        "short": 19711,
+        "net": 98314
+      },
+      "nonreportable": {
+        "long": 48784,
+        "short": 16449,
+        "net": 32335
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "openInterest": 396109,
+      "managed": {
+        "long": 127101,
+        "short": 16114,
+        "net": 110987
+      },
+      "producer": {
+        "long": 18860,
+        "short": 38361,
+        "net": -19501
+      },
+      "swap": {
+        "long": 14604,
+        "short": 239630,
+        "net": -225026
+      },
+      "other": {
+        "long": 118302,
+        "short": 18954,
+        "net": 99348
+      },
+      "nonreportable": {
+        "long": 50464,
+        "short": 16272,
+        "net": 34192
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "openInterest": 396345,
+      "managed": {
+        "long": 124747,
+        "short": 17658,
+        "net": 107089
+      },
+      "producer": {
+        "long": 18386,
+        "short": 36823,
+        "net": -18437
+      },
+      "swap": {
+        "long": 13976,
+        "short": 238070,
+        "net": -224094
+      },
+      "other": {
+        "long": 120553,
+        "short": 19763,
+        "net": 100790
+      },
+      "nonreportable": {
+        "long": 50731,
+        "short": 16079,
+        "net": 34652
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "openInterest": 402279,
+      "managed": {
+        "long": 120970,
+        "short": 16764,
+        "net": 104206
+      },
+      "producer": {
+        "long": 19715,
+        "short": 34498,
+        "net": -14783
+      },
+      "swap": {
+        "long": 17737,
+        "short": 238536,
+        "net": -220799
+      },
+      "other": {
+        "long": 116172,
+        "short": 20513,
+        "net": 95659
+      },
+      "nonreportable": {
+        "long": 51407,
+        "short": 15690,
+        "net": 35717
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "openInterest": 396810,
+      "managed": {
+        "long": 122508,
+        "short": 16946,
+        "net": 105562
+      },
+      "producer": {
+        "long": 20487,
+        "short": 30061,
+        "net": -9574
+      },
+      "swap": {
+        "long": 20230,
+        "short": 226280,
+        "net": -206050
+      },
+      "other": {
+        "long": 101216,
+        "short": 20327,
+        "net": 80889
+      },
+      "nonreportable": {
+        "long": 48622,
+        "short": 19449,
+        "net": 29173
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "openInterest": 399169,
+      "managed": {
+        "long": 122283,
+        "short": 18669,
+        "net": 103614
+      },
+      "producer": {
+        "long": 18914,
+        "short": 27826,
+        "net": -8912
+      },
+      "swap": {
+        "long": 19301,
+        "short": 215291,
+        "net": -195990
+      },
+      "other": {
+        "long": 98247,
+        "short": 22313,
+        "net": 75934
+      },
+      "nonreportable": {
+        "long": 46024,
+        "short": 20670,
+        "net": 25354
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "openInterest": 404725,
+      "managed": {
+        "long": 127406,
+        "short": 15065,
+        "net": 112341
+      },
+      "producer": {
+        "long": 19189,
+        "short": 30070,
+        "net": -10881
+      },
+      "swap": {
+        "long": 18336,
+        "short": 224977,
+        "net": -206641
+      },
+      "other": {
+        "long": 98828,
+        "short": 21062,
+        "net": 77766
+      },
+      "nonreportable": {
+        "long": 46298,
+        "short": 18883,
+        "net": 27415
+      }
+    }
+  ]
+}
