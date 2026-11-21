@@ -4,37 +4,8 @@
   "market": "GOLD - COMMODITY EXCHANGE INC.",
   "contractCode": "088691",
   "reportType": "Disaggregated Futures Only",
-  "fetchedAt": "2026-11-20T12:51:53.770612+00:00",
+  "fetchedAt": "2026-11-21T03:19:19.668468+00:00",
   "records": [
-    {
-      "date": "2023-11-21",
-      "openInterest": 508429,
-      "managed": {
-        "long": 144381,
-        "short": 65246,
-        "net": 79135
-      },
-      "producer": {
-        "long": 14081,
-        "short": 59990,
-        "net": -45909
-      },
-      "swap": {
-        "long": 80946,
-        "short": 225272,
-        "net": -144326
-      },
-      "other": {
-        "long": 125320,
-        "short": 32750,
-        "net": 92570
-      },
-      "nonreportable": {
-        "long": 43959,
-        "short": 25429,
-        "net": 18530
-      }
-    },
     {
       "date": "2023-11-28",
       "openInterest": 505658,
@@ -4528,6 +4499,35 @@
         "long": 46298,
         "short": 18883,
         "net": 27415
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "openInterest": 407834,
+      "managed": {
+        "long": 121994,
+        "short": 19052,
+        "net": 102942
+      },
+      "producer": {
+        "long": 20252,
+        "short": 24843,
+        "net": -4591
+      },
+      "swap": {
+        "long": 21549,
+        "short": 210708,
+        "net": -189159
+      },
+      "other": {
+        "long": 88057,
+        "short": 24867,
+        "net": 63190
+      },
+      "nonreportable": {
+        "long": 47263,
+        "short": 19645,
+        "net": 27618
       }
     }
   ]
