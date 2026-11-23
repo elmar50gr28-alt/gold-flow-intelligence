@@ -1154,7 +1154,7 @@
       ],
       "note": "FRB公表値をFREDから取得。休日は欠測。金利変化は％ポイント、指数はDXYとは異なる系列。",
       "fetchedAt": "2026-11-20T12:45:49.454851+00:00",
-      "lastAttempt": "2026-11-22T02:25:06.102539+00:00",
+      "lastAttempt": "2026-11-23T02:55:28.886349+00:00",
       "status": "update-failed",
       "error": "TimeoutError"
     },
@@ -57179,7 +57179,7 @@
       ],
       "note": "FRB公表値をFREDから取得。休日は欠測。金利変化は％ポイント、指数はDXYとは異なる系列。",
       "fetchedAt": "2026-11-20T12:45:49.565992+00:00",
-      "lastAttempt": "2026-11-22T02:25:06.103919+00:00",
+      "lastAttempt": "2026-11-23T02:55:28.887345+00:00",
       "status": "update-failed",
       "error": "TimeoutError"
     },
@@ -78116,7 +78116,7 @@
       ],
       "note": "FRB公表値をFREDから取得。休日は欠測。金利変化は％ポイント、指数はDXYとは異なる系列。",
       "fetchedAt": "2026-11-20T12:45:49.897417+00:00",
-      "lastAttempt": "2026-11-22T02:25:06.178871+00:00",
+      "lastAttempt": "2026-11-23T02:55:29.175594+00:00",
       "status": "update-failed",
       "error": "TimeoutError"
     },
@@ -78197,8 +78197,8 @@
         }
       ],
       "note": "SAFEの月末数量（万トロイオンス）をトン換算。日付は対象月を示します。保有変化であり取引約定ではありません。",
-      "fetchedAt": "2026-11-22T02:25:06.653972+00:00",
-      "lastAttempt": "2026-11-22T02:25:06.653972+00:00",
+      "fetchedAt": "2026-11-23T02:55:29.439562+00:00",
+      "lastAttempt": "2026-11-23T02:55:29.439562+00:00",
       "status": "ok"
     },
     "futures": {
@@ -78207,10 +78207,6 @@
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?range=6mo&interval=1d",
       "sourcePage": "https://finance.yahoo.com/quote/GC=F/history/",
       "points": [
-        {
-          "date": "2026-05-21",
-          "value": 4542.5
-        },
         {
           "date": "2026-05-22",
           "value": 4523.2001953125
@@ -78721,8 +78717,8 @@
         }
       ],
       "note": "期近連続の日足終値。限月切替の影響があります。当日足は除外。現物価格とは別系列。",
-      "fetchedAt": "2026-11-22T02:25:06.100751+00:00",
-      "lastAttempt": "2026-11-22T02:25:06.100751+00:00",
+      "fetchedAt": "2026-11-23T02:55:28.884280+00:00",
+      "lastAttempt": "2026-11-23T02:55:28.884280+00:00",
       "status": "ok"
     },
     "gld": {
@@ -78731,10 +78727,6 @@
       "source": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
       "sourcePage": "https://www.spdrgoldshares.com/usa/gld/",
       "points": [
-        {
-          "date": "2026-10-02",
-          "value": 1055.7
-        },
         {
           "date": "2026-10-05",
           "value": 1056.27
@@ -78870,11 +78862,15 @@
         {
           "date": "2026-11-19",
           "value": 1038.14
+        },
+        {
+          "date": "2026-11-20",
+          "value": 1034.43
         }
       ],
       "note": "信託が保有する金の数量。発行会社自身の投資判断や、ETF投資家の実名を示すものではありません。",
-      "fetchedAt": "2026-11-22T02:25:06.101538+00:00",
-      "lastAttempt": "2026-11-22T02:25:06.101538+00:00",
+      "fetchedAt": "2026-11-23T02:55:28.885216+00:00",
+      "lastAttempt": "2026-11-23T02:55:28.885216+00:00",
       "status": "ok"
     },
     "gldm": {
@@ -78883,10 +78879,6 @@
       "source": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gldm",
       "sourcePage": "https://www.spdrgoldshares.com/usa/gldm/",
       "points": [
-        {
-          "date": "2026-10-02",
-          "value": 229.83
-        },
         {
           "date": "2026-10-05",
           "value": 231.12
@@ -79022,13 +79014,17 @@
         {
           "date": "2026-11-19",
           "value": 238.22
+        },
+        {
+          "date": "2026-11-20",
+          "value": 238.22
         }
       ],
       "note": "信託が保有する金の数量。発行会社自身の投資判断や、ETF投資家の実名を示すものではありません。",
-      "fetchedAt": "2026-11-22T02:25:06.102066+00:00",
-      "lastAttempt": "2026-11-22T02:25:06.102066+00:00",
+      "fetchedAt": "2026-11-23T02:55:28.885717+00:00",
+      "lastAttempt": "2026-11-23T02:55:28.885717+00:00",
       "status": "ok"
     }
   },
-  "builtAt": "2026-11-22T02:25:56.187349+00:00"
+  "builtAt": "2026-11-23T02:56:19.185430+00:00"
 }
