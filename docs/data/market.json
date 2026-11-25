@@ -1154,7 +1154,7 @@
       ],
       "note": "FRB公表値をFREDから取得。休日は欠測。金利変化は％ポイント、指数はDXYとは異なる系列。",
       "fetchedAt": "2026-11-20T12:45:49.454851+00:00",
-      "lastAttempt": "2026-11-24T06:11:29.073505+00:00",
+      "lastAttempt": "2026-11-25T04:57:12.239839+00:00",
       "status": "update-failed",
       "error": "TimeoutError"
     },
@@ -57179,7 +57179,7 @@
       ],
       "note": "FRB公表値をFREDから取得。休日は欠測。金利変化は％ポイント、指数はDXYとは異なる系列。",
       "fetchedAt": "2026-11-20T12:45:49.565992+00:00",
-      "lastAttempt": "2026-11-24T06:11:29.073772+00:00",
+      "lastAttempt": "2026-11-25T04:57:12.246724+00:00",
       "status": "update-failed",
       "error": "TimeoutError"
     },
@@ -78116,7 +78116,7 @@
       ],
       "note": "FRB公表値をFREDから取得。休日は欠測。金利変化は％ポイント、指数はDXYとは異なる系列。",
       "fetchedAt": "2026-11-20T12:45:49.897417+00:00",
-      "lastAttempt": "2026-11-24T06:11:29.113936+00:00",
+      "lastAttempt": "2026-11-25T04:57:12.467718+00:00",
       "status": "update-failed",
       "error": "TimeoutError"
     },
@@ -78197,8 +78197,8 @@
         }
       ],
       "note": "SAFEの月末数量（万トロイオンス）をトン換算。日付は対象月を示します。保有変化であり取引約定ではありません。",
-      "fetchedAt": "2026-11-24T06:11:29.481942+00:00",
-      "lastAttempt": "2026-11-24T06:11:29.481942+00:00",
+      "fetchedAt": "2026-11-25T04:57:12.779944+00:00",
+      "lastAttempt": "2026-11-25T04:57:12.779944+00:00",
       "status": "ok"
     },
     "futures": {
@@ -78207,10 +78207,6 @@
       "source": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?range=6mo&interval=1d",
       "sourcePage": "https://finance.yahoo.com/quote/GC=F/history/",
       "points": [
-        {
-          "date": "2026-05-22",
-          "value": 4523.2001953125
-        },
         {
           "date": "2026-05-26",
           "value": 4502.2998046875
@@ -78714,13 +78710,20 @@
         {
           "date": "2026-11-20",
           "value": 3515.39990234375
+        },
+        {
+          "date": "2026-11-23",
+          "value": 3651.39990234375
+        },
+        {
+          "date": "2026-11-24",
+          "value": 3561.89990234375
         }
       ],
       "note": "期近連続の日足終値。限月切替の影響があります。当日足は除外。現物価格とは別系列。",
-      "fetchedAt": "2026-11-23T02:55:28.884280+00:00",
-      "lastAttempt": "2026-11-24T06:11:29.072168+00:00",
-      "status": "update-failed",
-      "error": "HTTPError"
+      "fetchedAt": "2026-11-25T04:57:12.237371+00:00",
+      "lastAttempt": "2026-11-25T04:57:12.237371+00:00",
+      "status": "ok"
     },
     "gld": {
       "name": "SPDR Gold Trust (GLD)",
@@ -78728,10 +78731,6 @@
       "source": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
       "sourcePage": "https://www.spdrgoldshares.com/usa/gld/",
       "points": [
-        {
-          "date": "2026-10-06",
-          "value": 1059.97
-        },
         {
           "date": "2026-10-07",
           "value": 1061.11
@@ -78867,11 +78866,15 @@
         {
           "date": "2026-11-23",
           "value": 1031.3
+        },
+        {
+          "date": "2026-11-24",
+          "value": 1031.3
         }
       ],
       "note": "信託が保有する金の数量。発行会社自身の投資判断や、ETF投資家の実名を示すものではありません。",
-      "fetchedAt": "2026-11-24T06:11:29.072777+00:00",
-      "lastAttempt": "2026-11-24T06:11:29.072777+00:00",
+      "fetchedAt": "2026-11-25T04:57:12.238220+00:00",
+      "lastAttempt": "2026-11-25T04:57:12.238220+00:00",
       "status": "ok"
     },
     "gldm": {
@@ -78880,10 +78883,6 @@
       "source": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gldm",
       "sourcePage": "https://www.spdrgoldshares.com/usa/gldm/",
       "points": [
-        {
-          "date": "2026-10-06",
-          "value": 231.61
-        },
         {
           "date": "2026-10-07",
           "value": 231.61
@@ -79019,13 +79018,17 @@
         {
           "date": "2026-11-23",
           "value": 238.22
+        },
+        {
+          "date": "2026-11-24",
+          "value": 238.22
         }
       ],
       "note": "信託が保有する金の数量。発行会社自身の投資判断や、ETF投資家の実名を示すものではありません。",
-      "fetchedAt": "2026-11-24T06:11:29.073162+00:00",
-      "lastAttempt": "2026-11-24T06:11:29.073162+00:00",
+      "fetchedAt": "2026-11-25T04:57:12.238891+00:00",
+      "lastAttempt": "2026-11-25T04:57:12.238891+00:00",
       "status": "ok"
     }
   },
-  "builtAt": "2026-11-24T06:12:19.175443+00:00"
+  "builtAt": "2026-11-25T04:58:02.535781+00:00"
 }
